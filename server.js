@@ -80,7 +80,7 @@ app.get('/listings', async(req, res) => {
 
     try {
         const result = await client.query(`
-            SELECT * FROM air_listings 
+            SELECT * FROM relief_listings 
         `,);
 
         res.json(result.rows);
@@ -98,7 +98,7 @@ app.get('/listings/:listingID', async(req, res) => {
     try {
         const result = await client.query(`
             SELECT *
-            FROM air_listings
+            FROM relief_listings
             WHERE id = ${req.params.listingID}
         `);
 
@@ -117,7 +117,7 @@ app.get('/listings/state/:stateID', async(req, res) => {
     try {
         const result = await client.query(`
             SELECT *
-            FROM air_listings
+            FROM relief_listings
             WHERE state = '${req.params.stateID}'
         `);
 
@@ -136,7 +136,7 @@ app.get('/listings/country/:countryID', async(req, res) => {
     try {
         const result = await client.query(`
             SELECT *
-            FROM air_listings
+            FROM relief_listings
             WHERE country = '${req.params.countryID}'
         `);
 
@@ -154,44 +154,37 @@ app.get('/listings/country/:countryID', async(req, res) => {
 app.post('/api/admin/listings', async(req, res) => {
     try {
         const {
-            program_name,
-            address,
+            name_of_fund,
+            beneficiaries,
+            purpose,
+            administrator,
             city,
             state,
-            zip_code,
             country,
-            continent,
-            phone_num,
-            email,
-            art_medium,
+            donate_link,
+            assistance_link,
             img_url,
-            link_url,
-            description,
-            is_grant,
+            user_id,
             lat,
             long
-        } = req.body;
+       } = req.body;
 
         const newListing = await client.query(`
-            INSERT INTO air_listings (program_name, address, city, state, zip_code, country, continent, phone_num, email, art_medium, img_url, link_url, description, user_id, is_grant, lat, long)
-            values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17)
+            INSERT INTO relief_listings (name_of_fund, beneficiaries, purpose, administrator, city, state, country, donate_link, assistance_link, img_url, user_id, lat, long)
+            values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13)
             returning *
         `, [
-            program_name, 
-            address, 
-            city, 
+            name_of_fund,
+            beneficiaries,
+            purpose,
+            administrator,
+            city,
             state,
-            zip_code,
             country,
-            continent,
-            phone_num,
-            email,
-            art_medium,
+            donate_link,
+            assistance_link,
             img_url,
-            link_url,
-            description,
-            req.userId,
-            is_grant,
+            user_id,
             lat,
             long
         ]);
@@ -210,21 +203,18 @@ app.put('/api/me/admin/listings/:listingID', async(req, res) => {
         console.log(req.body);
         // make a new cat out of the cat that comes in req.body;
         const result = await client.query(`
-            UPDATE air_listings
-            SET program_name = '${req.body.program_name}', 
-                address = '${req.body.address}', 
-                city = '${req.body.city}', 
+            UPDATE relief_listings
+            SET name_of_fund = '${req.body.name_of_fund}', 
+                beneficiaries = '${req.body.beneficiaries}', 
+                purpose = '${req.body.purpose}', 
+                administrator = '${req.body.administrator}',
+                city = '${req.body.city}',
                 state = '${req.body.state}',
-                zip_code = '${req.body.zip_code}',
                 country = '${req.body.country}',
-                continent = '${req.body.continent}',
-                phone_num = '${req.body.phone_num}',
-                email = '${req.body.email}',
-                art_medium = '${req.body.art_medium}',
+                donate_link = '${req.body.donate_link}',
+                assistance_link = '${req.body.assistance_link}',
                 img_url = '${req.body.img_url}',
-                link_url = '${req.body.link_url}',
-                description = '${req.body.description}',
-                is_grant = '${req.body.is_grant}',
+                user_id = '${req.body.user_id}',
                 lat = '${req.body.lat}',
                 long = '${req.body.long}'
 
@@ -246,7 +236,7 @@ app.put('/api/me/admin/listings/:listingID', async(req, res) => {
 app.delete('/api/me/admin/listings/:listingID', async(req, res) => {
     try {
         const result = await client.query(`
-        DELETE FROM air_listings
+        DELETE FROM relief_listings
         WHERE id = ${req.params.listingID} es
         `);
 
@@ -265,13 +255,11 @@ app.get('/search', async(req, res) => {
     try {
         console.log(req.query.search);
         const result = await client.query(`
-            SELECT * FROM air_listings 
-            WHERE program_name ILIKE '%${req.query.search}%'
-            OR city ILIKE '%${req.query.search}%' 
+            SELECT * FROM relief_listings 
+            WHERE name_of_fund ILIKE '%${req.query.search}%'
             OR state ILIKE '%${req.query.search}%' 
-            OR zip_code ILIKE '%${req.query.search}%' 
             OR continent ILIKE '%${req.query.search}%'
-            OR description ILIKE '%${req.query.search}%'
+            OR purpose ILIKE '%${req.query.search}%'
             OR art_medium ILIKE '%${req.query.search}%'
         `);
 
