@@ -25,17 +25,17 @@ async function run() {
                     hash VARCHAR(512) NOT NULL,
                     
                 );           
-                CREATE TABLE pandemic_support_funds_listings (
+                CREATE TABLE relief_listings (
                     id SERIAL PRIMARY KEY NOT NULL,
                     name_of_fund VARCHAR(256),
                     beneficiaries VARCHAR(256),
                     purpose VARCHAR(256),
                     administrator VARCHAR(256),
                     city VARCHAR(256),
-                    state VARCHAR(2),
+                    state VARCHAR(256),
                     country VARCHAR(256),
-                    link_to_donate VARCHAR(256),
-                    link_to_apply_for_assistance VARCHAR(256),
+                    donate_link VARCHAR(256),
+                    assistance_link VARCHAR(256),
                     img_url VARCHAR(600),
                     user_id INTEGER,
                     lat VARCHAR(256),

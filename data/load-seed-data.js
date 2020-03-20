@@ -12,18 +12,18 @@ async function run() {
         await client.connect();
 
         await client.query(`
-                    INSERT INTO users (email, hash, display_name)
-                    VALUES ($1, $2, $3)
+                    INSERT INTO users (email, hash)
+                    VALUES ($1, $2)
        `,
-        ['test@test.com', 'test', 'Testy']);
+        ['test@test.com', 'test']);
 
         await Promise.all(
             data.map(listing => {
                 return client.query(`
-                    INSERT INTO air_listings (program_name, address, city, state, zip_code, country, continent, phone_num, email, art_medium, img_url, link_url, description, user_id, is_grant, lat, long)
-                    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17);
+                    INSERT INTO relief_listings (name_of_fund, beneficiaries, purpose, administrator, city, state, country, donate_link, assistance_link, img_url, user_id, lat, long)
+                    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13);
                 `,
-                [listing.program_name, listing.address, listing.city, listing.state, listing.zip_code, listing.country, listing.continent, listing.phone_num, listing.email, listing.art_medium, listing.img_url, listing.link_url, listing.description, listing.user_id, listing.is_grant, listing.lat, listing.long]);
+                [listing.name_of_fund, listing.beneficiaries, listing.purpose, listing.administrator, listing.city, listing.state, listing.country, listing.donate_link, listing.assistance_link, listing.img_url, listing.user_id, listing.lat, listing.long]);
             })
         );
 
