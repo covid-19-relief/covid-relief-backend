@@ -56,127 +56,6 @@ app.use('/api/me', ensureAuth);
 
 //////////////
 
-//User's Listings Get Route for viewing and then editing with a put below
-app.get('/api/me/listings', async(req, res) => {
-    try {
-        const myQuery = `
-            SELECT * FROM air_listings
-            WHERE user_id=$1
-        `;
-        
-        const favorites = await client.query(myQuery, [req.userId]);
-        
-        res.json(favorites.rows);
-
-    } catch (e) {
-        console.error(e);
-    }
-});
-
-//Favorites Get only if logged in
-app.get('/api/me/favorites', async(req, res) => {
-    try {
-        const myQuery = `
-            SELECT * FROM favorites
-            WHERE user_id=$1
-        `;
-        
-        const favorites = await client.query(myQuery, [req.userId]);
-        
-        res.json(favorites.rows);
-
-    } catch (e) {
-        console.error(e);
-    }
-});
-
-//Favorites Delete only if logged in
-app.delete('/api/me/favorites/:id', async(req, res) => {
-    try {
-        const myQuery = `
-            DELETE FROM favorites
-            WHERE id=$1
-            RETURNING *
-        `;
-        
-        const favorites = await client.query(myQuery, [req.params.id]);
-        
-        res.json(favorites.rows);
-
-    } catch (e) {
-        console.error(e);
-    }
-});
-
-//Favorites Create only if logged in
-app.post('/api/me/favorites', async(req, res) => {
-    try {
-        const {
-            program_name,
-            address,
-            city,
-            state,
-            zip_code,
-            country,
-            continent,
-            phone_num,
-            email,
-            art_medium,
-            img_url,
-            link_url,
-            description,
-            is_grant
-        } = req.body;
-
-        const newFavorites = await client.query(`
-            INSERT INTO favorites (program_name, address, city, state, zip_code, country, continent, phone_num, email, art_medium, img_url, link_url, description, user_id, is_grant)
-            values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15)
-            returning *
-        `, [
-            program_name, 
-            address, 
-            city, 
-            state,
-            zip_code,
-            country,
-            continent,
-            phone_num,
-            email,
-            art_medium,
-            img_url,
-            link_url,
-            description,
-            req.userId,
-            is_grant
-        ]);
-
-        res.json(newFavorites.rows[0]);
-
-    } catch (e) {
-        console.error(e);
-    }
-});
-
-//get favorites by user ID - for front page
-app.get('/favorites/:userID', async(req, res) => {
-    try {
-        const result = await client.query(`
-            SELECT *
-            FROM favorites
-            WHERE user_id = '${req.params.userID}'
-        `);
-
-        res.json(result.rows);
-    }
-    catch (err) {
-        console.log(err);
-        res.status(500).json({
-            error: err.message || err
-        });
-    }
-});
-
-
 //Dev Get Users Route
 app.get('/users', async(req, res) => {
 
@@ -195,24 +74,6 @@ app.get('/users', async(req, res) => {
     }
 });
 
-//Dev Get User ID
-app.get('/users/:userID', async(req, res) => {
-    try {
-        const result = await client.query(`
-            SELECT *
-            FROM users
-            WHERE id = '${req.params.userID}'
-        `);
-
-        res.json(result.rows);
-    }
-    catch (err) {
-        console.log(err);
-        res.status(500).json({
-            error: err.message || err
-        });
-    }
-});
 
 //All listings Get route
 app.get('/listings', async(req, res) => {
@@ -220,27 +81,6 @@ app.get('/listings', async(req, res) => {
     try {
         const result = await client.query(`
             SELECT * FROM air_listings 
-        `,);
-
-        res.json(result.rows);
-    }
-    catch (err) {
-        console.log(err);
-        res.status(500).json({
-            error: err.message || err
-        });
-    }
-});
-
-
-
-//Some listings Get page route
-app.get('/listings/page/:pageID', async(req, res) => {
-
-    try {
-        const result = await client.query(`
-            SELECT * FROM air_listings
-            LIMIT 20 OFFSET (${req.params.pageID} - 1) * 20
         `,);
 
         res.json(result.rows);
@@ -291,43 +131,6 @@ app.get('/listings/state/:stateID', async(req, res) => {
     }
 });
 
-//get distinct from US states
-app.get('/listings/state/dropdown/:id', async(req, res) => {
-    try {
-        const result = await client.query(`
-            SELECT DISTINCT state
-            FROM air_listings
-        `);
-
-        res.json(result.rows);
-    }
-    catch (err) {
-        console.log(err);
-        res.status(500).json({
-            error: err.message || err
-        });
-    }
-});
-
-//get by city
-app.get('/listings/city/:cityID', async(req, res) => {
-    try {
-        const result = await client.query(`
-            SELECT *
-            FROM air_listings
-            WHERE city = '${req.params.cityID}'
-        `);
-
-        res.json(result.rows);
-    }
-    catch (err) {
-        console.log(err);
-        res.status(500).json({
-            error: err.message || err
-        });
-    }
-});
-
 //get by country
 app.get('/listings/country/:countryID', async(req, res) => {
     try {
@@ -347,46 +150,8 @@ app.get('/listings/country/:countryID', async(req, res) => {
     }
 });
 
-//get by program name, needs WHOLE program name
-app.get('/listings/program/:programID', async(req, res) => {
-    try {
-        const result = await client.query(`
-            SELECT *
-            FROM air_listings
-            WHERE program_name = '${req.params.programID}'
-        `);
-
-        res.json(result.rows);
-    }
-    catch (err) {
-        console.log(err);
-        res.status(500).json({
-            error: err.message || err
-        });
-    }
-});
-
-//get by continent
-app.get('/listings/continent/:continentID', async(req, res) => {
-    try {
-        const result = await client.query(`
-            SELECT *
-            FROM air_listings
-            WHERE continent = '${req.params.continentID}'
-        `);
-
-        res.json(result.rows);
-    }
-    catch (err) {
-        console.log(err);
-        res.status(500).json({
-            error: err.message || err
-        });
-    }
-});
-
 //User create new listing only if logged in
-app.post('/api/me/listings', async(req, res) => {
+app.post('/api/admin/listings', async(req, res) => {
     try {
         const {
             program_name,
@@ -437,122 +202,6 @@ app.post('/api/me/listings', async(req, res) => {
         console.error(e);
     }
 });
-
-//User edit listing by user_id
-app.put('/api/me/listings/:listingID', async(req, res) => {
-    // using req.body instead of req.params or req.query (which belong to /GET requests)
-    try {
-        console.log(req.body);
-        // make a new cat out of the cat that comes in req.body;
-        const result = await client.query(`
-            UPDATE air_listings
-            SET program_name = '${req.body.program_name}', 
-            address = '${req.body.address}', 
-            city = '${req.body.city}', 
-            state = '${req.body.state}',
-            zip_code = '${req.body.zip_code}',
-            country = '${req.body.country}',
-            continent = '${req.body.continent}',
-            phone_num = '${req.body.phone_num}',
-            email = '${req.body.email}',
-            art_medium = '${req.body.art_medium}',
-            img_url = '${req.body.img_url}',
-            link_url = '${req.body.link_url}',
-            description = '${req.body.description}',
-            is_grant = '${req.body.is_grant}',
-            lat = '${req.body.lat}',
-            long = '${req.body.long}'
-            
-            WHERE id = ${req.params.listingID} AND user_id=$1;
-        `, [req.userId]
-        );
-
-        res.json(result.rows[0]); // return just the first result of our query
-    }
-    catch (err) {
-        console.log(err);
-        res.status(500).json({
-            error: err.message || onoo
-        });
-    }
-});
-
-// //Will Be Admin edit any listing -- attempt 1
-// app.put('/api/me/admin/listings/:listingID', async(req, res) => {
-//     // using req.body instead of req.params or req.query (which belong to /GET requests)
-//     try {
-//         console.log(req.body);
-//         // make a new cat out of the cat that comes in req.body;
-//         const result = await client.query(`
-
-        
-//             UPDATE air_listings
-//             SET program_name = '${req.body.program_name}', 
-//             address = '${req.body.address}', 
-//             city = '${req.body.city}', 
-//             state = '${req.body.state}',
-//             zip_code = '${req.body.zip_code}',
-//             country = '${req.body.country}',
-//             continent = '${req.body.continent}',
-//             phone_num = '${req.body.phone_num}',
-//             email = '${req.body.email}',
-//             art_medium = '${req.body.art_medium}',
-//             img_url = '${req.body.img_url}',
-//             link_url = '${req.body.link_url}',
-//             description = '${req.body.description}',
-//             is_grant = '${req.body.is_grant}'
-
-//             FROM air_listings AS thing, users AS useID   
-// 			WHERE thing.id = ${req.params.listingID} AND useID.is_admin=$1;
-//         `, [true]
-//         );
-
-//         res.json(result.rows[0]); // return just the first result of our query
-//     }
-//     catch (err) {
-//         console.log(err);
-//         res.status(500).json({
-//             error: err.message || onoo
-//         });
-//     }
-// });
-
-// //Will Be Admin edit any listing -- attempt 2
-// app.put('/api/me/admin/listings/:listingID', async(req, res) => {
-//     // using req.body instead of req.params or req.query (which belong to /GET requests)
-//     try {
-//         console.log(req.body);
-//         // make a new cat out of the cat that comes in req.body;
-//         const result = await client.query(`
-//             UPDATE air_listings
-//             SET program_name = '${req.body.program_name}', 
-//             address = '${req.body.address}', 
-//             city = '${req.body.city}', 
-//             state = '${req.body.state}',
-//             zip_code = '${req.body.zip_code}',
-//             country = '${req.body.country}',
-//             continent = '${req.body.continent}',
-//             phone_num = '${req.body.phone_num}',
-//             email = '${req.body.email}',
-//             art_medium = '${req.body.art_medium}',
-//             img_url = '${req.body.img_url}',
-//             link_url = '${req.body.link_url}',
-//             description = '${req.body.description}',
-//             is_grant = '${req.body.is_grant}'
-  
-// 			WHERE id = ${req.params.listingID};
-//         `,
-//         );
-
-//         res.json(result.rows[0]); // return just the first result of our query
-//     }
-//     catch (err) {
-//         console.log(err);
-//         res.status(500).json({
-//             error: err.message || onoo
-//         });
-//     }
-// });
 
 // //Will be ADMIN edit listing
 app.put('/api/me/admin/listings/:listingID', async(req, res) => {
@@ -611,24 +260,6 @@ app.delete('/api/me/admin/listings/:listingID', async(req, res) => {
     }
 });
 
-//user delete listing
-app.delete('/api/me/listings/:listingID', async(req, res) => {
-    try {
-        const result = await client.query(`
-        DELETE FROM air_listings
-        WHERE id = ${req.params.listingID} AND user_id=$1; 
-        `, [req.userId]);
-
-        res.json(result.rows);
-    }
-    catch (err) {
-        console.log(err);
-        res.status(500).json({
-            error: err.message || err
-        });
-    }
-});
-
 //Get SEARCH all listings
 app.get('/search', async(req, res) => {
     try {
@@ -654,31 +285,11 @@ app.get('/search', async(req, res) => {
     }
 });
 
-app.get('/test/search/:pageID', async(req, res) => {
-    try {
-        const result = await client.query(`
-            SELECT *
-            FROM air_listings 
-            WHERE id || program_name || city || state || zip_code || country || continent || description || art_medium
-            ILIKE '%${req.query.search}%'
-            LIMIT 20 OFFSET (${req.params.pageID} - 1) * 20;
-        `);
+// app.get('/api/me/geocode', async(req, res) => {
+//     const data = await request.get(`https://maps.googleapis.com/maps/api/geocode/json?address=${req.query.search}&key=${process.env.GOOGLE_MAPS_API_KEY}`);
 
-        res.json(result.rows);
-    }
-    catch (err) {
-        console.log(err);
-        res.status(500).json({
-            error: err.message || err
-        });
-    }
-});
-
-app.get('/api/me/geocode', async(req, res) => {
-    const data = await request.get(`https://maps.googleapis.com/maps/api/geocode/json?address=${req.query.search}&key=${process.env.GOOGLE_MAPS_API_KEY}`);
-
-    res.json(data.body);
-});
+//     res.json(data.body);
+// });
 
 //404 page
 app.get('*', (req, res) => {

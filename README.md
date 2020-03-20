@@ -1,4 +1,4 @@
-# air-backend
+# covid-relief-backend
 
 api/auth
 .use
