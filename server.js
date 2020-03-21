@@ -257,10 +257,12 @@ app.get('/search', async(req, res) => {
         const result = await client.query(`
             SELECT * FROM relief_listings 
             WHERE name_of_fund ILIKE '%${req.query.search}%'
+            OR city ILIKE '%${req.query.search}%'
             OR state ILIKE '%${req.query.search}%' 
-            OR continent ILIKE '%${req.query.search}%'
+            OR country ILIKE '%${req.query.search}%'
             OR purpose ILIKE '%${req.query.search}%'
-            OR art_medium ILIKE '%${req.query.search}%'
+            OR beneficiaries ILIKE '%${req.query.search}%'
+            OR administrator ILIKE '%${req.query.search}%'
         `);
 
         res.json(result.rows);
