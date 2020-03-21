@@ -37,10 +37,10 @@ const authRoutes = createAuthRoutes({
     async insertUser(user, hash) {
         console.log(user);
         const result = await client.query(`
-            INSERT into users (email, hash, display_name, is_admin)
-            VALUES ($1, $2, $3, $4)
+            INSERT into users (email, hash)
+            VALUES ($1, $2)
             RETURNING id, email, display_name;
-        `, [user.email, hash, user.display_name, user.is_admin]);
+        `, [user.email, hash);
         return result.rows[0];
     }
 });
@@ -52,7 +52,7 @@ const authRoutes = createAuthRoutes({
 app.use('/api/auth', authRoutes);
 
 // everything that starts with "/api" below here requires an auth token!
-app.use('/api/me', ensureAuth);
+app.use('/api/admin', ensureAuth);
 
 //////////////
 
@@ -118,7 +118,7 @@ app.get('/listings/state/:stateID', async(req, res) => {
         const result = await client.query(`
             SELECT *
             FROM relief_listings
-            WHERE state = '${req.params.stateID}'
+            WHERE state ilike '%${req.params.stateID}%'
         `);
 
         res.json(result.rows);
@@ -197,7 +197,7 @@ app.post('/api/admin/listings', async(req, res) => {
 });
 
 // //Will be ADMIN edit listing
-app.put('/api/me/admin/listings/:listingID', async(req, res) => {
+app.put('/api/admin/listings/:listingID', async(req, res) => {
     // using req.body instead of req.params or req.query (which belong to /GET requests)
     try {
         console.log(req.body);
@@ -233,7 +233,7 @@ app.put('/api/me/admin/listings/:listingID', async(req, res) => {
 });
 
 //Will Be Admin delete listing
-app.delete('/api/me/admin/listings/:listingID', async(req, res) => {
+app.delete('/api/admin/listings/:listingID', async(req, res) => {
     try {
         const result = await client.query(`
         DELETE FROM relief_listings
