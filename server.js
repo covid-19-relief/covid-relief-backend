@@ -118,7 +118,7 @@ app.get('/listings/state/:stateID', async(req, res) => {
         const result = await client.query(`
             SELECT *
             FROM relief_listings
-            WHERE state ilike '%${req.params.stateID}%'
+            WHERE state ILIKE '%${req.params.stateID}%'
         `);
 
         res.json(result.rows);
