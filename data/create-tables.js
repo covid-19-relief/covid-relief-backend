@@ -22,20 +22,20 @@ async function run() {
                 CREATE TABLE users (
                     id SERIAL PRIMARY KEY,
                     email VARCHAR(256) NOT NULL,
-                    hash VARCHAR(512) NOT NULL,
+                    hash VARCHAR(512) NOT NULL
                     
                 );           
                 CREATE TABLE relief_listings (
                     id SERIAL PRIMARY KEY NOT NULL,
                     name_of_fund VARCHAR(256),
                     beneficiaries VARCHAR(256),
-                    purpose VARCHAR(256),
+                    purpose VARCHAR(2000),
                     administrator VARCHAR(256),
                     city VARCHAR(256),
                     state VARCHAR(256),
                     country VARCHAR(256),
-                    donate_link VARCHAR(256),
-                    assistance_link VARCHAR(256),
+                    donate_link VARCHAR(600),
+                    assistance_link VARCHAR(600),
                     img_url VARCHAR(600),
                     user_id INTEGER,
                     lat VARCHAR(256),
