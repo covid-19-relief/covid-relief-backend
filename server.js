@@ -40,7 +40,7 @@ const authRoutes = createAuthRoutes({
             INSERT into users (email, hash)
             VALUES ($1, $2)
             RETURNING id, email, display_name;
-        `, [user.email, hash);
+        `, [user.email, hash]);
         return result.rows[0];
     }
 });
