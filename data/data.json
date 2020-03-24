@@ -1,7 +1,7 @@
 ﻿[
     {
         "name_of_fund": "NYC COVID-19 Response Fund",
-        "beneficiaries": "African-American community",
+        "beneficiary": "BIPOC",
         "purpose": "Pooled financial support, quarantine supplies, or other needs for Black people in New York City.",
         "administrator": "Emrald Nwanne",
         "city": "New York City",
@@ -10,8 +10,25 @@
         "donate_link": "https://www.paypal.com/pools/c/8nnys8G2Qc"
     },
     {
+        "name_of_fund": "The Oglala Sioux Tribe COVID-19 Disaster Relief Fund",
+        "beneficiary": "BIPOC; Vulnerable communities",
+        "purpose": "Support to the Ogalala Sioux Tribe in \"acquiring needed medical supplies, develop quarantine protocols that give the tribe access food and decontamination supplies in case of a local pandemic event.\"",
+        "administrator": "Ogalala Sioux Tribe",
+        "state": "SD",
+        "country": "USA",
+        "donate_link": "http://www.oglalalakotanation.info/phone/covid-19.html"
+    },
+    {
+        "name_of_fund": "Navajo & Hopi Families COVID-19 Relief Fund",
+        "beneficiary": "BIPOC; Vulnerable communities",
+        "purpose": "Provide groceries, water, and health supplies for elderly (especially those raising their grandchildren), single parents, and struggling families on the Navajo Nation and Hopi Reservation.",
+        "administrator": "Ethel Branch",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/navajo-amp-hopi-families-covid19-relief"
+    },
+    {
         "name_of_fund": "Supporting Performing Artists Affected by COVID-19",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Financial assistance to performers whose US West Coast shows between March 1-June 1, 2020 have been cancelled due to COVID-19.",
         "administrator": "Joshua Penman",
         "state": "CA, OR, WA",
@@ -20,7 +37,7 @@
     },
     {
         "name_of_fund": "Denver Metro Area Artist COVID-19 Relief Fund",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Financial assistance for artists affected by cancellations related to COVID-19, prioritizing \"those artists who are part of historically marginalized groups because of the intersectional economic realities they face already\"",
         "administrator": "Mehria Wiese",
         "city": "Denver",
@@ -30,7 +47,7 @@
     },
     {
         "name_of_fund": "Atlanta Artist Lost Gig Fund",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Financial assistance up to $500/recipients for current C4 Member Artists with cancelled gigs, projects or events due to COVID-19.",
         "administrator": "C4 Atlanta",
         "city": "Atlanta",
@@ -40,7 +57,7 @@
     },
     {
         "name_of_fund": "Hawaii Artists & Entertainment Professionals Fund",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Financial assistance for paying bills, paying rent, buying food.",
         "administrator": "Janine Myers",
         "state": "HI",
@@ -50,7 +67,7 @@
     },
     {
         "name_of_fund": "Chicago Artist Relief Fund",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Support for the Chicago arts community suffering financial consequences \"due to pandemic-related cancellations.\"",
         "administrator": "Chicago Artist Relief Fund",
         "city": "Chicago",
@@ -61,7 +78,7 @@
     },
     {
         "name_of_fund": "Boston Artist Relief Fund",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Grants of $500 and $1,000 to \"individual artists who live in Boston whose creative practices and incomes are being adversely impacted by Coronavirus 2019 \"",
         "administrator": "Boston Artist Relief Fund",
         "city": "Boston",
@@ -72,7 +89,7 @@
     },
     {
         "name_of_fund": "Frederick Artist Relief Fund",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Financial assistance of $250-$500/recipient to artists living in Frederick County whose incomes have been adversely affected by COVID-19.",
         "administrator": "Frederick Arts Council",
         "state": "MD",
@@ -82,7 +99,7 @@
     },
     {
         "name_of_fund": "Personal Emergency Relief Fund",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Financial assistance up to $500/recipient for individuals who have lost income due to cancelled gigs, shows, commissions, or other opportuntiies.",
         "administrator": "Springboard for the Arts",
         "state": "MN",
@@ -92,7 +109,7 @@
     },
     {
         "name_of_fund": "NC Artist Relief Fund",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Financial support to \"musicians, visual artists, actors, DJ’s, dancers, teaching artists, filmmakers, comedians, and other creative individuals and arts presenters\" who have been impacted by cancellations due to COVID-19.",
         "administrator": "Artspace Pine Cone, United Arts Council, VAE Raleigh",
         "state": "NC",
@@ -102,7 +119,7 @@
     },
     {
         "name_of_fund": "Durham Artist Relief Fund",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Financial assistance for artists affected by cancellations due to COVID-19, \"with priority given to to BIPOC artists, transgender & nonbinary artists, and disabled artists.\"",
         "administrator": "NorthStar Church of the Arts",
         "city": "Durham",
@@ -113,8 +130,8 @@
     },
     {
         "name_of_fund": "NYC Low-Income Artist & Freelancer Relief Fund",
-        "beneficiaries": "Creators and artists",
-        "purpose": "Emergency resources to \"low-income, BIPOC, trans/GNC/NB/Queer artists and freelancers whose livelihoods are being affected by this pandemic in NYC.\"\n\nFund may now be closed for new applications.",
+        "beneficiary": "Creators and artists",
+        "purpose": "Emergency resources to \"low-income, BIPOC, trans/GNC/NB/Queer artists and freelancers whose livelihoods are being affected by this pandemic in NYC.\"\r\n\r\nFund may now be closed for new applications.",
         "administrator": "Culture Push",
         "city": "New York City",
         "state": "NY",
@@ -123,8 +140,8 @@
     },
     {
         "name_of_fund": "Greater Cincinnati Artist Relief Fund",
-        "beneficiaries": "Creators and artists",
-        "purpose": "Financial assistance for artists affected by cancellations and lost business.\n\nApplications for assistance may be suspended.",
+        "beneficiary": "Creators and artists",
+        "purpose": "Financial assistance for artists affected by cancellations and lost business.\r\n\r\nApplications for assistance may be suspended.",
         "administrator": "Ian Timothy Forsgren",
         "city": "Cincinnati",
         "state": "OH",
@@ -134,8 +151,8 @@
     },
     {
         "name_of_fund": "Pittsburgh Artist Emergency Fund",
-        "beneficiaries": "Creators and artists",
-        "purpose": "Financial assistance up to $250/recipient to \"help abet the costs due to cancelled gigs and jobs. This can go toward helping artists pay rent, pay bills, purchase food and other essentials.\"",
+        "beneficiary": "Creators and artists",
+        "purpose": "Financial assistance up to $250/recipient to \"help abet the costs due to cancelled gigs and jobs.  This can go toward helping artists pay rent, pay bills, purchase food and other essentials.\"",
         "city": "Pittsburgh",
         "state": "PN",
         "country": "USA",
@@ -144,7 +161,7 @@
     },
     {
         "name_of_fund": "Emergency Fund for Artists",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Financial assistance of up to $500/recipient for artists in Allegheny, Beaver, Butler, Washington, Lawrence, Indiana, Greene, Fayette, Washington, and Westmoreland counties to offset income lost from cancelled gigs or teaching opportunities.",
         "state": "PN",
         "country": "USA",
@@ -153,7 +170,7 @@
     },
     {
         "name_of_fund": "Nashville Artist Support Fund",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Financial assistance up to $300 to \"any freelance creative or musician in need on a first-come-first-serve basis.\"",
         "administrator": "Bradley Moore",
         "city": "Nashville",
@@ -163,7 +180,7 @@
     },
     {
         "name_of_fund": "Seattle Artists Relief Fund Amid COVID-19",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Financial assistance to \"those in the greater Seattle arts community who have been financially impacted by cancellations due to COVID-19.\"",
         "administrator": "Ijeoma Oluo",
         "city": "Seattle",
@@ -174,8 +191,8 @@
     },
     {
         "name_of_fund": "Artist Relief Tree",
-        "beneficiaries": "Creators and artists",
-        "purpose": "Financial assistance up to $250/recipient on a first-come-first-served basis.\n\nApplications for assistance may be suspended.",
+        "beneficiary": "Creators and artists",
+        "purpose": "Financial assistance up to $250/recipient on a first-come-first-served basis.\r\n\r\nApplications for assistance may be suspended.",
         "administrator": "Morgan Brophy",
         "country": "USA",
         "donate_link": "https://www.facebook.com/donate/1080011789032749/",
@@ -183,7 +200,7 @@
     },
     {
         "name_of_fund": "CERF+ COVID-19 Response Fund",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Financial support to \"artists working in craft disciplines…who are suffering severe health impacts from the coronavirus.\"",
         "administrator": "CERF+",
         "country": "USA",
@@ -192,7 +209,7 @@
     },
     {
         "name_of_fund": "The Creator Fund",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Provide upt to $500/applicant for medical, childcare, housing, or grocery needs to creators experiencing financial hardship due to COVID-19.",
         "administrator": "ConvertKit",
         "country": "USA",
@@ -201,8 +218,8 @@
     },
     {
         "name_of_fund": "Dramatists Emergency Grants",
-        "beneficiaries": "Creators and artists",
-        "purpose": "Financial assistance for playwrights, composers, lyricists, and bookwriters. This existing emergency fund program is processing emergency grants due to COVID-19.",
+        "beneficiary": "Creators and artists",
+        "purpose": "Financial assistance for playwrights, composers, lyricists, and bookwriters.  This existing emergency fund program is processing emergency grants due to COVID-19.",
         "administrator": "Dramatists Guild Foundation",
         "country": "USA",
         "donate_link": "https://dgf.org/programs/grants/grants-for-writers/",
@@ -210,16 +227,24 @@
     },
     {
         "name_of_fund": "COVID-19 Emergency Assistance Fund",
-        "beneficiaries": "Creators and artists",
+        "beneficiary": "Creators and artists",
         "purpose": "Helping \"those onstage and behind the scenes get health care, emergency financial assistance and counseling during this pandemic.\"",
         "administrator": "Broadway Cares",
         "country": "USA",
         "donate_link": "https://donate.broadwaycares.org/campaign/covid-19-emergency-assistance-fund/c276873"
     },
     {
+        "name_of_fund": "SFWA COVID-19 Fund",
+        "beneficiary": "Creators and artists",
+        "purpose": "Provide \"grants of up to $1,000 to assist SFWA members financially affected by COVID-19.\"\r\n\r\nMark \"Use Where Need Is Greatest\" to direct donation to COVID-19 relief efforts.",
+        "administrator": "Science Fiction Writers of America",
+        "country": "USA",
+        "donate_link": "https://membership.sfwa.org/page-308450"
+    },
+    {
         "name_of_fund": "Fort Worth Artist & Service Worker Relief Fund",
-        "beneficiaries": "Creators and artists, Service industry workers",
-        "purpose": "Financial assistance to musicians, visual artists, bartenders, servers, dancers, actors, event staff, sound technicians, local artisans.\n\nApplications for assistance may be suspended.",
+        "beneficiary": "Creators and artists, Service industry workers",
+        "purpose": "Financial assistance to musicians, visual artists, bartenders, servers, dancers, actors, event staff, sound technicians, local artisans.\r\n\r\nApplications for assistance may be suspended.",
         "administrator": "Rachel Gollay",
         "city": "Fort Worth",
         "state": "TX",
@@ -228,7 +253,7 @@
     },
     {
         "name_of_fund": "Arts Leaders of Color Emergency Fund",
-        "beneficiaries": "Creators and artists; BIPOC",
+        "beneficiary": "Creators and artists; BIPOC",
         "purpose": "Financial assistance for BIPOC artists, teaching artists, and arts administrators who are impacted by COVID-19",
         "administrator": "Arts Administrators of Color Network",
         "country": "USA",
@@ -237,7 +262,7 @@
     },
     {
         "name_of_fund": "COVID-19 WOC Artists Relief Fund",
-        "beneficiaries": "Creators and artists; BIPOC",
+        "beneficiary": "Creators and artists; BIPOC",
         "purpose": "Support to WOC artists financially affected by COVID-19.",
         "administrator": "Ramya Ramana",
         "country": "USA",
@@ -246,8 +271,8 @@
     },
     {
         "name_of_fund": "Sacramento COVID-19 Artists Relief Fund",
-        "beneficiaries": "Creators and artists; BIPOC; LGBTQI+",
-        "purpose": "Financial assistance to \"benefit artists who have been impacted by the event cancellations and other COVID-19 virus related issues.\" Priority to \"women, BIPOC, transgender, non-binary, and disabled artists.\" Administrator will keep 15% of all donations.",
+        "beneficiary": "Creators and artists; BIPOC; LGBTQI+",
+        "purpose": "Financial assistance to \"benefit artists who have been impacted by the event cancellations and other COVID-19 virus related issues.\" Priority to \"women, BIPOC, transgender, non-binary, and disabled artists.\"  Administrator will keep 15% of all donations.",
         "administrator": "Broad Room",
         "city": "Sacramento",
         "state": "CA",
@@ -257,7 +282,7 @@
     },
     {
         "name_of_fund": "I Lost My Gig",
-        "beneficiaries": "Creators and artists; Local business employees",
+        "beneficiary": "Creators and artists; Local business employees",
         "purpose": "List of individuals and businesses directly affected by the cancellation of SXSW with information for direct donation.",
         "city": "Austin",
         "state": "TX",
@@ -266,7 +291,7 @@
     },
     {
         "name_of_fund": "Orange County Arts Relief Fund",
-        "beneficiaries": "Creators and artists; Nonprofit Organizations",
+        "beneficiary": "Creators and artists; Nonprofit Organizations",
         "purpose": "Assistance to local artists and arts organizations affected by COVID-19",
         "administrator": "Orange County Arts Commission",
         "city": "Orange County",
@@ -276,8 +301,8 @@
     },
     {
         "name_of_fund": "Hook Hall Helps",
-        "beneficiaries": "Dining & beverage industry workers",
-        "purpose": "Provide supplies, assistance, family meals to food service industry workers",
+        "beneficiary": "Dining & beverage industry workers",
+        "purpose": "Provide supplies, assistance, family meals to food service industry workers ",
         "administrator": "Restaurant Association of Metropolitan Washington, Hook Hall",
         "city": "Washington",
         "state": "DC",
@@ -287,7 +312,7 @@
     },
     {
         "name_of_fund": "COVID-19 Fund",
-        "beneficiaries": "Dining & beverage industry workers",
+        "beneficiary": "Dining & beverage industry workers",
         "purpose": "Financial assistance to food service workers experiencing unemployment because of the pandemic.",
         "administrator": "Giving Kitchen",
         "state": "GA",
@@ -295,8 +320,17 @@
         "donate_link": "https://thegivingkitchen.org/passthehat"
     },
     {
+        "name_of_fund": "Restaurant Strong Fund",
+        "beneficiary": "Dining & beverage industry workers",
+        "purpose": "Financial assistance to full-time restaurant workers who make hourly wage plus tips.",
+        "administrator": "Greg Hill Foundation",
+        "state": "MA",
+        "country": "USA",
+        "donate_link": "https://www.thegreghillfoundation.org/restaurantstrong/"
+    },
+    {
         "name_of_fund": "El Paso Food and Beverage Workers Fund",
-        "beneficiaries": "Dining & beverage industry workers",
+        "beneficiary": "Dining & beverage industry workers",
         "purpose": "Financial assistance up to $50/recipient to food and beverage workers laid off or with significantly reduced hours as a result of COVID-19",
         "administrator": "Paso Del Norte Community Foundation",
         "city": "El Paso",
@@ -307,7 +341,7 @@
     },
     {
         "name_of_fund": "Charlottesville Restaurant Community Fund",
-        "beneficiaries": "Dining & beverage industry workers",
+        "beneficiary": "Dining & beverage industry workers",
         "purpose": "Financial assistance to \"pay an important bill, pay their utility bill, afford a doctor's visit, buy a week's worth of grocceries, buy formula for their baby, buy feminine hygiene products, cover the cost of a prescription, take an Uber to work, put gas in their car, and so much more.\"",
         "administrator": "Kaitlin Ellwood",
         "city": "Charlottesville",
@@ -317,7 +351,7 @@
     },
     {
         "name_of_fund": "Bartender Emergency Assistance Program",
-        "beneficiaries": "Dining & beverage industry workers",
+        "beneficiary": "Dining & beverage industry workers",
         "purpose": "Financial assistance for bartenders and their immediate families impacted by closures of bars, restaurants, and venues",
         "administrator": "USBG National Charity Foundation",
         "country": "USA",
@@ -326,52 +360,40 @@
     },
     {
         "name_of_fund": "Restaurant Workers COVID19 Crisis Relief Fund",
-        "beneficiaries": "Dining & beverage industry workers",
-        "purpose": "Immediately direct money to organizations leading on-the-ground efforts in the restaurant community;\nTo bolster our impact investing budget to provide zero-interest loans to businesses to maintain payroll during closure or re-open once this crisis has passed;\nTo establish a relief fund for individual workers facing economic hardships or health crises as a direct result of COVID-19.",
+        "beneficiary": "Dining & beverage industry workers",
+        "purpose": "Immediately direct money to organizations leading on-the-ground efforts in the restaurant community;\r\nTo bolster our impact investing budget to provide zero-interest loans to businesses to maintain payroll during closure or re-open once this crisis has passed;\r\nTo establish a relief fund for individual workers facing economic hardships or health crises as a direct result of COVID-19.",
         "administrator": "Restaurant Workers' Community Foundation",
         "country": "USA",
         "donate_link": "https://www.restaurantworkerscf.org/news/2020/3/15/restaurant-workers-community-foundation-announces-the-formation-of-restaurant-workers-covid19-crisis-relief-fund"
     },
     {
         "name_of_fund": "Dining Bonds Initiative",
-        "beneficiaries": "Dining & beverage industry workers",
+        "beneficiary": "Dining & beverage industry workers",
         "purpose": "Buy \"dining bonds,\" gift certificates for restaurants at 25% off face value, to be redeemed at participating restaurants later - provides funds to keep restaurants in business through shutdown periods.",
         "administrator": "Supportrestaurants.org, individual participating restaurants",
         "country": "USA",
         "donate_link": "https://supportrestaurants.org/#restaurants"
     },
     {
+        "name_of_fund": "Restaurant Workers Relief Program",
+        "beneficiary": "Dining & beverage industry workers",
+        "purpose": "Provides meals and daily necessities to restaurant workers affected by pandemic mitigation measures.",
+        "administrator": "Lee Initiative, 610 Magnolia",
+        "city": "Louisville, Washington DC, Los Angeles, Seattle, Cincinnati, New York City",
+        "country": "USA",
+        "donate_link": "https://leeinitiative.org/"
+    },
+    {
         "name_of_fund": "Coronavirus Care Fund",
-        "beneficiaries": "Domestic workers",
+        "beneficiary": "Domestic workers",
         "purpose": "Emergency assistance for home care workers, nannies and house cleaners, and enable them to stay home and healthy.",
         "administrator": "National Domestic Workers Alliance",
         "country": "USA",
         "donate_link": "https://domesticworkers.org/coronavirus-care-fund"
     },
     {
-        "name_of_fund": "Citymeals",
-        "beneficiaries": "Elderly",
-        "purpose": "Deliver meals to seniors in New York City",
-        "administrator": "Citymeals",
-        "city": "New York City",
-        "state": "NY",
-        "country": "USA",
-        "donate_link": "https://www.citymeals.org/support-us/donate-now"
-    },
-    {
-        "name_of_fund": "Invisible Hands",
-        "beneficiaries": "Elderly, High Risk Population",
-        "purpose": "Delivering groceries and supplies to people in high-risk COVID-19 demographics.",
-        "administrator": "Invisible Hands",
-        "city": "New York City",
-        "state": "NY",
-        "country": "USA",
-        "donate_link": "https://www.invisiblehandsdeliver.com/donate",
-        "assistance_link": "https://www.invisiblehandsdeliver.com/request-a-delivery"
-    },
-    {
         "name_of_fund": "Freelancer COVID-19 Emergency Fund",
-        "beneficiaries": "Freelancers",
+        "beneficiary": "Freelancers",
         "purpose": "Temporary assistance for freelancers \"adversely affected by the COVID-19 virus and resulting public response.\"",
         "administrator": "Freelancer Co-op",
         "country": "USA",
@@ -380,7 +402,7 @@
     },
     {
         "name_of_fund": "Leveler Fund",
-        "beneficiaries": "Freelancers",
+        "beneficiary": "Freelancers",
         "purpose": "Peer to peer support from salaried workers to freelance workers - donors are assigned a group of 10 beneficiaries, each of whom receives the same amount of money set by donor.",
         "administrator": "Leveler",
         "country": "USA",
@@ -388,8 +410,19 @@
         "assistance_link": "https://docs.google.com/forms/d/1pYA60eG7qG4ekLWf7kEUwJuwJnS6sc8KAH_RPdawvJU/viewform?edit_requested=true#responses"
     },
     {
+        "name_of_fund": "Relief Fund for Hollywood Support Staff",
+        "beneficiary": "Freelancers & contract workers",
+        "purpose": "Financial assistance for Hollywood assistants, PAs, coordinators, readers, other support staff who have exhausted or do not qualify for unemployment benefits.  Upt to $450 for partial-wage loss, upt to $900 for total wage loss.",
+        "administrator": "#PayUpHollywood, Scriptnotes Podcast, Junior Hollywood Radio & Television Society, YEA!",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/44ndst-relief-fund-for-hollywood-support-staff",
+        "assistance_link": "https://www.surveymonkey.com/r/GQKXL5K"
+    },
+    {
         "name_of_fund": "Meal Delivery for Puget Sound Hospital Staff",
-        "beneficiaries": "Health care workers",
+        "beneficiary": "Health care workers",
         "purpose": "Delivers \"high-quality, nutritious, multi-course meals\" to medical staff in King County hospitals.",
         "administrator": "Herbfarm Restaurant",
         "city": "Seattle",
@@ -399,19 +432,18 @@
         "assistance_link": "meals@lookahead.io"
     },
     {
-        "name_of_fund": "Relief Fund for Hollywood Support Staff",
-        "beneficiaries": "Hollywood support staff",
-        "purpose": "Financial assistance for assistants, PAs, coordinators, readers, other support staff who have exhausted or do not qualify for unemployment benefits. Upt to $450 for partial-wage loss, upt to $900 for total wage loss.",
-        "administrator": "#PayUpHollywood, Scriptnotes Podcast, Junior Hollywood Radio & Television Society, YEA!",
-        "city": "Los Angeles",
-        "state": "CA",
+        "name_of_fund": "Help Medics Make and Give Out Hand Sanitizer",
+        "beneficiary": "Health care workers; Vulnerable communities",
+        "purpose": "Funds manufacture of hand sanitizer for distribution to houseless people, service industry workers, and people engaged in mutual aid work.",
+        "administrator": "Rosehip Medical Collective",
+        "city": "Portland",
+        "state": "OR",
         "country": "USA",
-        "donate_link": "https://www.gofundme.com/f/44ndst-relief-fund-for-hollywood-support-staff",
-        "assistance_link": "https://www.surveymonkey.com/r/GQKXL5K"
+        "donate_link": "https://www.gofundme.com/f/help-medics-give-out-hand-sanitizer"
     },
     {
         "name_of_fund": "Saint Louis Hospitality Staff Members",
-        "beneficiaries": "Hospitality industry workers",
+        "beneficiary": "Hospitality industry workers",
         "purpose": "Support to hospitality workers who lose their jobs due to COVID-19.",
         "administrator": "Mark Brazell",
         "city": "Saint Louis",
@@ -421,7 +453,7 @@
     },
     {
         "name_of_fund": "Emergency Relief Fund",
-        "beneficiaries": "Hospitality industry workers",
+        "beneficiary": "Hospitality industry workers",
         "purpose": "Financial support to hospitality workers facing unforeseen expenses.",
         "administrator": "Southern Smoke Foundation",
         "state": "TX",
@@ -431,8 +463,8 @@
     },
     {
         "name_of_fund": "Seattle Hospitality Emergency Fund",
-        "beneficiaries": "Hospitality industry workers",
-        "purpose": "Hospitality industry workers \"whose hours have been curtailed because of this crisis and who are not being otherwise compensated.\" Recipients will also be asked to apply for unemployment.",
+        "beneficiary": "Hospitality industry workers",
+        "purpose": "Hospitality industry workers \"whose hours have been curtailed because of this crisis and who are not being otherwise compensated.\"  Recipients will also be asked to apply for unemployment.",
         "administrator": "Jessica Tousignant",
         "city": "Seattle",
         "state": "WA",
@@ -441,18 +473,8 @@
         "assistance_link": "https://www.surveymonkey.com/r/QHRPQ95"
     },
     {
-        "name_of_fund": "COVID-19 Relief and Stabilization Fund",
-        "beneficiaries": "Human trafficking survivors",
-        "purpose": "Support survivors of human trafficking particularly affected by the COVID-19 outbreak",
-        "administrator": "Restore NYC",
-        "city": "New York City",
-        "state": "NY",
-        "country": "USA",
-        "donate_link": "https://restorenyc.org/"
-    },
-    {
         "name_of_fund": "COVID-19 Relief Fund for Self-Employed & Service Economy LGBTQI+ BIPOC",
-        "beneficiaries": "LGBTQI+ BIPOC",
+        "beneficiary": "LGBTQI+ BIPOC",
         "purpose": "Financial assistance to LGBTQI+ BIPOC people, especially those who are self-employed or in the service industry - allocation done through rolling jubilee, initial survey closes March 17.",
         "administrator": "Amita Swadhin",
         "country": "Not specified",
@@ -461,17 +483,17 @@
     },
     {
         "name_of_fund": "Homegirl Emergency Fund",
-        "beneficiaries": "LGBTQI+; BIPOC",
+        "beneficiary": "LGBTQI+; BIPOC",
         "purpose": "Fund is temporarily closed to applicants due to scale of demand.",
         "city": "New York City",
         "state": "NY",
         "country": "USA",
-        "donate_link": "Paypal to: thehomegirlbox [at] gmail.com\nor purchase items at https://thehomegirlbox.com/shop",
+        "donate_link": "Paypal to: thehomegirlbox [at] gmail.com\r\nor purchase items at https://thehomegirlbox.com/shop",
         "assistance_link": "https://docs.google.com/forms/d/e/1FAIpQLScC7r_oBfS8S6PVBKDxkMkW-eU4aM7K0BauhiC-odOKg9QZBw/closedform"
     },
     {
         "name_of_fund": "Queer Writers of Color Relief Fund",
-        "beneficiaries": "LGBTQI+; BIPOC; Creators and artists",
+        "beneficiary": "LGBTQI+; BIPOC; Creators and artists",
         "purpose": "Financial assistance to queer writers of color affected by COVID-19 and mitigation measures, with \"priority will be given to queer trans women of color and queer disabled writers of color.\"",
         "administrator": "Shade Literary Arts",
         "country": "USA",
@@ -479,8 +501,19 @@
         "assistance_link": "https://docs.google.com/forms/d/e/1FAIpQLSd4u-9VX5bQZrdt3H-wO99UPb8e_k4r3dy0A3wf8eoG3E-2sw/viewform"
     },
     {
+        "name_of_fund": "SF Queer Nightlife Fund",
+        "beneficiary": "LGBTQI+; Dining & beverage industry workers; Creators and artists",
+        "purpose": "Financial assistance to queer nightlife workers experiencing economic insecurity due to COVID-19.",
+        "administrator": "SF Queer Nightlife Fund",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://sfqueernightlifefund.org/donate/",
+        "assistance_link": "https://sfqueernightlifefund.org/sf-qnf-application/"
+    },
+    {
         "name_of_fund": "Jammin Java & Union Stage Employee Relief Fund",
-        "beneficiaries": "Local business employees",
+        "beneficiary": "Local business employees",
         "purpose": "Financial assistance to hourly workers and staff at Jammin Java and Union Stage.",
         "administrator": "Jammin Java & Union Stage",
         "city": "Washington",
@@ -490,8 +523,8 @@
     },
     {
         "name_of_fund": "Coronavirus Worker Relief Fund",
-        "beneficiaries": "Local business employees",
-        "purpose": "Financial assistance to ILWU Local 5 workers affected by pandemic mitigation measures, including employees of Powells Books.\n\nPurchase of Powells Books through the donate link contributes to the fund as well.",
+        "beneficiary": "Local business employees",
+        "purpose": "Financial assistance to ILWU Local 5 workers affected by pandemic mitigation measures, including employees of Powells Books.\r\n\r\nPurchase of Powells Books through the donate link contributes to the fund as well.",
         "administrator": "ILWU Local 5",
         "city": "Portland",
         "state": "OR",
@@ -500,7 +533,7 @@
     },
     {
         "name_of_fund": "Jade District Workers' Relief Fund",
-        "beneficiaries": "Local business employees",
+        "beneficiary": "Local business employees",
         "purpose": "Financial assistance to \"members of the Jade District community who are being impacted and will be distributed by local social workers and trusted community leaders who are already providing direct services to those in need in the Jade District\" for \"buying food and supplies, paying for medication, purchasing transportation, childcare items, or other items they need.\"",
         "administrator": "APANO",
         "city": "Portland",
@@ -510,7 +543,7 @@
     },
     {
         "name_of_fund": "Jade District-Oldtown COVID-19 Small Business Relief Fund",
-        "beneficiaries": "Local business employees",
+        "beneficiary": "Local business employees",
         "purpose": "Financial support to businesses in Oldtown or the Jade District that have been affected by the advent of COVID-19",
         "administrator": "APANO",
         "city": "Portland",
@@ -521,7 +554,7 @@
     },
     {
         "name_of_fund": "Portland Community SOS",
-        "beneficiaries": "Local business employees",
+        "beneficiary": "Local business employees",
         "purpose": "Purchase gift certificates from participating businesses to provide ongoing revenue during shutdown period.",
         "administrator": "Portland Community SOS",
         "city": "Portland",
@@ -531,7 +564,7 @@
     },
     {
         "name_of_fund": "COVID-19 Assistance to Booksellers & Comic Retailers",
-        "beneficiaries": "Local business employees",
+        "beneficiary": "Local business employees",
         "purpose": "Financial assistance to individuals owning or working for booksellers & comic retailers if work hours are cut or employees fall sick.",
         "administrator": "Book Industry Charitable Foundation",
         "country": "USA",
@@ -539,8 +572,15 @@
         "assistance_link": "https://www.bincfoundation.org/expedited-application-for-covid-19-emergency/"
     },
     {
+        "name_of_fund": "Help Main Street",
+        "beneficiary": "Local business employees",
+        "purpose": "Buy gift cards to support local businesses experiencing financial stress due to pandemic mitigation measures.",
+        "country": "USA",
+        "donate_link": "https://helpmainstreet.com/"
+    },
+    {
         "name_of_fund": "Wellness Relief Fund",
-        "beneficiaries": "Local business employees; BIPOC",
+        "beneficiary": "Local business employees; BIPOC",
         "purpose": "\"One month of missed revenue (up to $2,500) for wellness spaces and wellness instructors that represent underestimated communities.\"",
         "administrator": "Reclamation Ventures",
         "country": "USA",
@@ -549,23 +589,15 @@
     },
     {
         "name_of_fund": "Seed Commons Workers Response Fund",
-        "beneficiaries": "Local business employees; BIPOC; Vulnerable communities",
+        "beneficiary": "Local business employees; BIPOC; Vulnerable communities",
         "purpose": "Financial assistance to cooperatives belonging to the Seed Commons network.",
         "administrator": "Seed Commons",
         "country": "USA",
         "donate_link": "https://charity.gofundme.com/o/en/campaign/seed-commons-worker-response-fund"
     },
     {
-        "name_of_fund": "Expensify Hunger",
-        "beneficiaries": "Low-income families",
-        "purpose": "Match SNAP grocery purchases to help low-income families buy food.",
-        "administrator": "Expensify",
-        "country": "USA",
-        "donate_link": "https://www.expensify.org/hunger"
-    },
-    {
         "name_of_fund": "Boston Music Maker Relief Fund",
-        "beneficiaries": "Musicians",
+        "beneficiary": "Musicians",
         "purpose": "Direct financial assistance up to $200 for \"music makers in the Boston area experiencing lost revenue from gig cancellations resulting from coronavirus and COVID-19.\"",
         "administrator": "The Record Co.",
         "city": "Boston",
@@ -576,7 +608,7 @@
     },
     {
         "name_of_fund": "Musician Relief Fund",
-        "beneficiaries": "Musicians",
+        "beneficiary": "Musicians",
         "purpose": "Financial assistance to Traverse Area to compensate for cancelled gigs.",
         "administrator": "Third Coast Creative Alliance",
         "state": "MI",
@@ -586,7 +618,7 @@
     },
     {
         "name_of_fund": "New Mexico Musicians Relief Fund Amid COVID-19",
-        "beneficiaries": "Musicians",
+        "beneficiary": "Musicians",
         "purpose": "Financial assistance to \"musicians of all genres in the New Mexico music community who have been financially impacted by cancellations due to COVID-19, with priority given to artists of color, LGBTQ & non-binary artists, and disabled artists.\"",
         "administrator": "Matthew Greer and Nicolle Maniaci",
         "state": "NM",
@@ -596,7 +628,7 @@
     },
     {
         "name_of_fund": "COVID-19 Oregon Musicians' Relief Fund",
-        "beneficiaries": "Musicians",
+        "beneficiary": "Musicians",
         "purpose": "Financial assistance to \"musicians and music industry workers affected by the coronavirus. Funds raised will go toward medical expenses, lodging, food, and other vital living expenses for musicians based in Oregon and Clark County, WA.\"",
         "administrator": "JWF Musicans' Emergency Healthcare Fund",
         "state": "OR, WA",
@@ -605,7 +637,7 @@
     },
     {
         "name_of_fund": "Seattle Music Teachers' Fund",
-        "beneficiaries": "Musicians",
+        "beneficiary": "Musicians",
         "purpose": "Financial assistance up to $250/recipient for income lost due to cancelled lessons.",
         "administrator": "Nate Omdal",
         "city": "Seattle",
@@ -616,7 +648,7 @@
     },
     {
         "name_of_fund": "Corona Relief Fund",
-        "beneficiaries": "Musicians",
+        "beneficiary": "Musicians",
         "purpose": "Direct financial assistance up to $500 to musicians who have lost work as a result of COVID-19 cancellations.",
         "administrator": "Equal Sound",
         "country": "USA",
@@ -625,7 +657,7 @@
     },
     {
         "name_of_fund": "COVID-19 Fund",
-        "beneficiaries": "Musicians",
+        "beneficiary": "Musicians",
         "purpose": "Financial assistance toward medical expenses, lodging, clothing, food, vital living expense for musicians and music industry workers impacted by sickness or loss of work.",
         "administrator": "Sweet Relief",
         "country": "USA",
@@ -633,8 +665,27 @@
         "assistance_link": "https://www.sweetrelief.org/request-assistance.html"
     },
     {
+        "name_of_fund": "COVID-19 Relief Fund",
+        "beneficiary": "Musicians",
+        "purpose": "Financial assistance for rent/mortgage up to $1,000/recipient to compensate for lost income due to \"scheduled work that was cancelled or lost.\"",
+        "administrator": "MusiCares (The Recording Academy)",
+        "country": "USA",
+        "donate_link": "https://www.grammy.com/musicares/donations",
+        "assistance_link": "https://www.grammy.com/musicares/get-help/covid-19-relief-fund-faq"
+    },
+    {
+        "name_of_fund": "C3 Test for Coronavirus & COVID-19",
+        "beneficiary": "None specified",
+        "purpose": "Financial support to produce 1,000 tests/day using C3 method, which can return results within four hours for people with mild or no symptoms.",
+        "administrator": "New York Community Trust Mailman School of Public Health",
+        "city": "New York City",
+        "state": "NY",
+        "country": "USA",
+        "donate_link": "https://www.indiegogo.com/projects/c3-test-for-coronavirus-covid-19#/"
+    },
+    {
         "name_of_fund": "C19 Help Squad",
-        "beneficiaries": "None specified",
+        "beneficiary": "None specified",
         "purpose": "Financial and material assistance to people or small businesses affected by COVID-19.",
         "administrator": "The Action PAC",
         "country": "USA",
@@ -642,9 +693,17 @@
         "assistance_link": "https://go.theactionpac.com/signup/help-c19-help-squad/"
     },
     {
+        "name_of_fund": "WHO's COVID-19 Solidarity Response Fund",
+        "beneficiary": "None specified",
+        "purpose": "Global fund to \"support global preparedness and response in communities affected by the spread of COVID-19.\"",
+        "administrator": "United Nations Foundation",
+        "country": "All",
+        "donate_link": "https://donate.google.com/checkout?campaignid=6420545008435200"
+    },
+    {
         "name_of_fund": "San Diego COVID-19 Community Response Fund",
-        "beneficiaries": "Nonprofit Organizations",
-        "purpose": "\"Make emergency grants to nonprofit organizations that have deep roots and strong experience supporting impacted communities, particularly those that are disproportionately affected by this global pandemic and its economic consequences. Grant funding will focus on three critical areas: food security, rental and utility assistance, and income replacement or gap funding.\"",
+        "beneficiary": "Nonprofit Organizations",
+        "purpose": "\"Make emergency grants to nonprofit organizations that have deep roots and strong experience supporting impacted communities, particularly those that are disproportionately affected by this global pandemic and its economic consequences. Grant funding will focus on three critical areas: food security, rental and utility assistance, and income replacement or gap funding.\"",
         "administrator": "The San Diego Foundation",
         "city": "San Diego",
         "state": "CA",
@@ -654,7 +713,7 @@
     },
     {
         "name_of_fund": "Brooklyn COVID-19 Response Fund",
-        "beneficiaries": "Nonprofit Organizations",
+        "beneficiary": "Nonprofit Organizations",
         "purpose": "\"Grants to front-line service organizations that provide lifelines for vulnerable populations, meal delivery and daily living needs for homebound neighbors, support for low-wage workers who may experience food insecurity, loss of wages, and limited access to healthcare and paid sick leave, as well as other emerging needs.\"",
         "administrator": "Brooklyn Community Foundation",
         "city": "Brooklyn",
@@ -665,7 +724,7 @@
     },
     {
         "name_of_fund": "Oregon Community Recovery Fund",
-        "beneficiaries": "Nonprofit Organizations",
+        "beneficiary": "Nonprofit Organizations",
         "purpose": "Support to community organizations on the front lines of the COVID-19 crisis.",
         "administrator": "Oregon Community Foundation",
         "state": "OR",
@@ -675,7 +734,7 @@
     },
     {
         "name_of_fund": "COVID-19 Response Fund",
-        "beneficiaries": "Nonprofit Organizations",
+        "beneficiary": "Nonprofit Organizations",
         "purpose": "Support to community organizations on the front lines of the COVID-19 crisis in Puget Sound.",
         "administrator": "Seattle Foundation",
         "state": "WA",
@@ -684,7 +743,7 @@
     },
     {
         "name_of_fund": "COVID-19 Response Fund for Nonprofits",
-        "beneficiaries": "Nonprofit Organizations",
+        "beneficiary": "Nonprofit Organizations",
         "purpose": "\"Flexible financial resources to organizations across the country working with minority communities who are disproportionately impacted by the coronavirus outbreak. One-time operating grants will help fund organizations that have had to cancel events which will impact their operational budget.\"",
         "administrator": "American Muslim Community Foundation",
         "country": "USA",
@@ -693,16 +752,24 @@
     },
     {
         "name_of_fund": "COVID-19 Crisis Response Fund",
-        "beneficiaries": "Nonprofit Organizations",
-        "purpose": "Grants up to $3,000 to previous Social Justice Fund grantees to support response to COVID-19 crisis. Priority for BIPOC-led grantees.",
+        "beneficiary": "Nonprofit Organizations",
+        "purpose": "Grants up to $3,000 to previous Social Justice Fund grantees to support response to COVID-19 crisis.  Priority for BIPOC-led grantees.",
         "administrator": "Social Justice Fund NW",
         "country": "USA",
         "donate_link": "https://socialjusticefund.org/covid-19-crisis-fund/",
         "assistance_link": "https://docs.google.com/forms/d/1S6i0JnhsqI1mxvMiKJEMuYVLyaT_CL6fNJiuERk0jPY/viewform?edit_requested=true"
     },
     {
+        "name_of_fund": "Modest Needs Fund for Hourly Workers",
+        "beneficiary": "Not specified",
+        "purpose": "Financial assistance to hourly workers in danger of becoming homeless as a result of lost wages due to COVID-19.  Donations up to $50,000 will be matched.",
+        "administrator": "Modest Needs",
+        "country": "USA",
+        "donate_link": "https://www.modestneeds.org/features/ledger/viewapp.asp?source=BrowseRequest&mode=upd&rp=l&id=489399"
+    },
+    {
         "name_of_fund": "Emercency Coronavirus Workers Support Fund",
-        "beneficiaries": "Service industry workers",
+        "beneficiary": "Service industry workers",
         "purpose": "Financial assistance to tipped restaurant workers, delivery drivers, personal service workers and others who are members of One Fair Wage or sign up to be members and participate in a confirmation interview.",
         "administrator": "One Fair Wage",
         "state": "CA, CO, FL, IL, NJ, NY, MD, MA, MI, PN, DC",
@@ -710,7 +777,7 @@
     },
     {
         "name_of_fund": "Service Workers' Coalition",
-        "beneficiaries": "Service industry workers",
+        "beneficiary": "Service industry workers",
         "purpose": "Financial support for service workers staying home because they are sick or quarantined.",
         "administrator": "Service Workers Coalition",
         "city": "Brooklyn",
@@ -720,7 +787,7 @@
     },
     {
         "name_of_fund": "Shift Dallas",
-        "beneficiaries": "Service industry workers",
+        "beneficiary": "Service industry workers",
         "purpose": "Assistance to service industriy workers in Dallas",
         "administrator": "Shift Dallas",
         "city": "Dallas",
@@ -730,8 +797,18 @@
         "assistance_link": "https://shiftdallas.org/"
     },
     {
+        "name_of_fund": "Help Hourly Workers During the Coronavirus Crisis",
+        "beneficiary": "Service industry workers; Dining & beverage industry workers",
+        "purpose": "Direct financial assistance to hourly workers who have lost tips or income due to the coronavirus.",
+        "administrator": "Robin Hood (NYC), Tipping Point Community (SF)",
+        "city": "New York City, San Francisco",
+        "state": "NY, CA",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/helphourlyworkers"
+    },
+    {
         "name_of_fund": "Emergency COVID Relief for Sex Workers in New York",
-        "beneficiaries": "Sex workers",
+        "beneficiary": "Sex workers",
         "purpose": "Financial aid to sex workers in New York City affected by COVID-19.",
         "administrator": "SWOP",
         "city": "New York City",
@@ -742,7 +819,7 @@
     },
     {
         "name_of_fund": "PDX S*x Worker COVID-19 Relief Fund",
-        "beneficiaries": "Sex workers",
+        "beneficiary": "Sex workers",
         "purpose": "\"Emergency assistance for food, gas, hygiene products for themselves and/or their children, and other emergency needs.\"",
         "administrator": "Willow Fae",
         "city": "Portland",
@@ -752,8 +829,8 @@
     },
     {
         "name_of_fund": "Emergency COVID19 Relief for Sex Workers in Austin",
-        "beneficiaries": "Sex workers",
-        "purpose": "Financial assistance and community food and supplies pantry to sex workers in Austin, prioritizing \"those affected by racist and transphobic violence.\"",
+        "beneficiary": "Sex workers",
+        "purpose": "Financial assistance and community food and supplies pantry to sex workers in Austin, prioritizing \"those affected by racist and transphobic violence.\" ",
         "administrator": "SWOP ATX",
         "city": "Austin",
         "state": "TX",
@@ -762,7 +839,7 @@
     },
     {
         "name_of_fund": "Sex-Worker Aid Network Initiative",
-        "beneficiaries": "Sex workers",
+        "beneficiary": "Sex workers",
         "purpose": "Financial assistance to sex workers in the Seattle area affected by COVID-19 \"prioritizing the needs of street based workers, trans, POC, and immuno-compromised workers. We will be using it to purchase medications, sanitation supplies, toiletries, as well as provide cash support for bills and rent.\"",
         "administrator": "SW SANI; Green Light Project",
         "city": "Seattle",
@@ -772,8 +849,59 @@
         "assistance_link": "GLPsani@protonmail.com"
     },
     {
+        "name_of_fund": "Help an Elderly SF Citizen During COVID-19",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Donations help to build care kits which will be delivered to elderly citizens of San Francisco",
+        "administrator": "Little Brothers Friends of the Elderly",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://littlebrotherssf.networkforgood.com/projects/95387-help-an-elderly-sf-citizen-during-the-covid19-outbreak?fbclid=IwAR20P3y8RzShNumCW-AESOn-mNAQadKJl41M7U0btNdYHHeMrUykExqxgDk"
+    },
+    {
+        "name_of_fund": "Help our Public Schools Prepare and Respond to the COVID-19 Pandemic",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Ensure food and technology support to students in San Francisco public schools; ensure school environments are clean and hygienic.",
+        "administrator": "Spark*SF Public Schools",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://secure.givelively.org/donate/spark-sf-public-schools/urgent-help-our-public-schools-prepare-and-respond-to-the-covid-19-pandemic"
+    },
+    {
+        "name_of_fund": "COVID-19 Relief and Stabilization Fund",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Support survivors of human trafficking particularly affected by the COVID-19 outbreak",
+        "administrator": "Restore NYC",
+        "city": "New York City",
+        "state": "NY",
+        "country": "USA",
+        "donate_link": "https://restorenyc.org/"
+    },
+    {
+        "name_of_fund": "Citymeals",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Deliver meals to seniors in New York City",
+        "administrator": "Citymeals",
+        "city": "New York City",
+        "state": "NY",
+        "country": "USA",
+        "donate_link": "https://www.citymeals.org/support-us/donate-now"
+    },
+    {
+        "name_of_fund": "Invisible Hands",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Delivering groceries and supplies to people in high-risk COVID-19 demographics.",
+        "administrator": "Invisible Hands",
+        "city": "New York City",
+        "state": "NY",
+        "country": "USA",
+        "donate_link": "https://www.invisiblehandsdeliver.com/donate",
+        "assistance_link": "https://www.invisiblehandsdeliver.com/request-a-delivery"
+    },
+    {
         "name_of_fund": "Emergency Funds for Undocumented Youth and Families During COVID-19",
-        "beneficiaries": "Vulnerable communities",
+        "beneficiary": "Vulnerable communities",
         "purpose": "Financial assistance to undocumented folks affected by COVID-19",
         "administrator": "New York State Youth Leadership Council",
         "city": "New York City",
@@ -783,21 +911,277 @@
         "assistance_link": "Email: info@nysylc.org"
     },
     {
+        "name_of_fund": "PDX COVID-19 Mutual Aid Network Fundraiser",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Purchase supplies, help to pay bills, and support mutual aid efforts for \"those who are sick, unhoused, disabled, quarantined without pay, elderly, undocumented, trans and queer, Black, Indigenous, People of Color,  including immigrants, refugees, and those who have been displaced from Portland to nearby areas.\"",
+        "administrator": "PDX COVID-19 Mutual Aid Society",
+        "city": "Portland",
+        "state": "OR",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/pdx-covid19-mutual-aid-network-fundraiser"
+    },
+    {
+        "name_of_fund": "Expensify Hunger",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Match SNAP grocery purchases to help low-income families buy food.",
+        "administrator": "Expensify",
+        "country": "USA",
+        "donate_link": "https://www.expensify.org/hunger"
+    },
+    {
         "name_of_fund": "COVID-19 Emergency Relief Fund",
-        "beneficiaries": "Vulnerable communities",
+        "beneficiary": "Vulnerable communities",
         "purpose": "Financial assistance for immigrant communities",
         "administrator": "Ayuda",
         "country": "USA",
         "donate_link": "https://www.classy.org/campaign/support-covid-19-relief/c277151"
     },
     {
+        "name_of_fund": "Children's Hunger Fund COVID-19 Relief",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Provide food and other aid to people in poverty affected by COVID-19.",
+        "administrator": "Mercy Network churches, Children's Hunger Fund",
+        "country": "USA",
+        "donate_link": "https://childrenshungerfund.org/Disaster"
+    },
+    {
+        "name_of_fund": "COVID-19 Community Response and Recovery Fund",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Provide \"critical information and services like food, shelter, and more\" to people in need.",
+        "administrator": "United Way",
+        "country": "USA",
+        "donate_link": "https://secure.unitedway.org/j/step/covid19-donate"
+    },
+    {
         "name_of_fund": "Undocu Workers Fund",
-        "beneficiaries": "Vulnerable communities; Dining & beverage industry workers",
+        "beneficiary": "Vulnerable communities; Dining & beverage industry workers",
         "purpose": "Financial assistance to undocumented service industry workers who cannot apply for unemployment in Manhattan and Brooklyn.",
         "administrator": "RAISE",
         "city": "New York City",
         "state": "NY",
         "country": "USA",
         "donate_link": "Venmo undocuworkersfund@gmail.com"
+    },
+    {
+        "name_of_fund": "COVID-19 Response Fund for the Pioneer Valley",
+        "beneficiary": "Nonprofit organizations; Vulnerable communities",
+        "purpose": "\"One-time operating grants to support frontline organizations with deep roots within priority populations.\"",
+        "administrator": "Community Foundation of Western Massachusetts",
+        "state": "MA",
+        "country": "USA",
+        "donate_link": "http://communityfoundation.org/about-the-covid-19-response-fund-for-the-pioneer-valley/"
+    },
+    {
+        "name_of_fund": "Blue Grass Farms Charities: COVID19 Preparedness",
+        "beneficiary": "Vulnerable communities; Service industry workers",
+        "purpose": "Providing food aid and assistance with other basic necessities to farm workers in Central Kentucky's Thoroughbred industry.",
+        "administrator": "Blue Grass Farms Charities",
+        "state": "KY",
+        "country": "USA",
+        "donate_link": "https://www.bgfcky.org/"
+    },
+    {
+        "name_of_fund": "CDP COVID-19 Response Fund",
+        "beneficiary": "Nonprofit organizations; Vulnerable communities",
+        "purpose": "Support to \"nonprofit organizations working directly to respond to the pandemic among the most vulnerable populations in order to help build their capacity for response,\" including \"social service organizations focused on supporting hourly wage earners, workers in the gig economy, immigrant/New American populations, older adults, people with disabilities and other communities vulnerable to the physical health, mental health and economic impacts of the pandemic.\"",
+        "administrator": "Center for Disaster Philanthropy",
+        "country": "USA",
+        "donate_link": "https://disasterphilanthropy.org/cdp-fund/cdp-covid-19-response-fund/"
+    },
+    {
+        "name_of_fund": "COVID-19 Response Fund",
+        "beneficiary": "Nonprofit organizations",
+        "purpose": "Support to \"support of seniors, children, immigrants, workers and other vulnerable populations\" in the greater Boston areas.  ",
+        "administrator": "Boston Foundation",
+        "city": "Boston",
+        "state": "MA",
+        "country": "USA",
+        "donate_link": "https://www.tbf.org/what-we-do/special-funds/covid-19-response-fund"
+    },
+    {
+        "name_of_fund": "Carolina Student Impact Fund",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "\"Emergency support for various expenses, such as housing, food, travel and technology to students who are unable to meet the unexpected financial burdens resulting from the effects of the novel coronavirus.\"",
+        "administrator": "UNC Helping Heels",
+        "state": "NC",
+        "country": "USA",
+        "donate_link": "https://campaign.unc.edu/helping-heels/",
+        "assistance_link": "Email:  covidcareforstudents@unc.edu or ccfs@unc.edu"
+    },
+    {
+        "name_of_fund": "SFF COVID-19 Emergency Response Fund",
+        "beneficiary": "Nonprofit organizations",
+        "purpose": "Financial support to community organizations (between $3,000-$25,000) focusing on worker support, homelessness and renter protections, food security, or addressing racial violence.",
+        "administrator": "San Francisco Foundation",
+        "city": "Bay Area",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://sff.org/make-an-impact/give-new/",
+        "assistance_link": "https://sff.org/for-nonprofits-apply-for-a-grant-from-the-sff-covid-19-emergency-response-fund/"
+    },
+    {
+        "name_of_fund": "COVID-19 Regional Response Fund",
+        "beneficiary": "Nonprofit organizations",
+        "purpose": "Financial support for community organizations working to provide \"housing/shelter, food, clothing, financial assistance\" for people without health insurance/sick days, limited English proficiency, healthcare workers, gig workers, BIPOC.",
+        "administrator": "Silicon Valley Community Foundation",
+        "city": "Bay Area",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://www.siliconvalleycf.org/coronavirus-fund"
+    },
+    {
+        "name_of_fund": "One Sioux Falls Fund",
+        "beneficiary": "Vulnerable Communities",
+        "purpose": "Support to people facing eviction or foreclosure in the Sioux Falls area.",
+        "administrator": "Sioux Falls Area Community Foundation",
+        "city": "Sioux Falls",
+        "state": "SD",
+        "country": "USA",
+        "donate_link": "https://www.sfacf.org/covid-19"
+    },
+    {
+        "name_of_fund": "COVID-19 Relief Fund",
+        "beneficiary": "Nonprofit organizations",
+        "purpose": "Grants between $5,000-$30,000 to support community organizations working to help vulnerable people with basic needs.",
+        "administrator": "Community Foundation for Monterey County, Monterey Peninsula Foundation",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://www.cfmco.org/give-now/?fund=19651",
+        "assistance_link": "https://www.cfmco.org/nonprofits/grants/covid-19-relief-grants/"
+    },
+    {
+        "name_of_fund": "AISD Crisis Support Fund",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Provide food, low income telehealth services, remote learning, and other needs to students and families in the AISD.",
+        "administrator": "Austin Ed Fund",
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA",
+        "donate_link": "https://austinedfund.org/crisis-support-fund/"
+    },
+    {
+        "name_of_fund": "ACF/UWCNM Emergency Action Fund",
+        "beneficiary": "Nonprofit organizations",
+        "purpose": "Financial support for organizations whose operations are affected by \"loss of revenue and non-recoverable expenses\" as a result of COVID-19.",
+        "administrator": "Albuquerque Community Foundation, United Way of Central New Mexico",
+        "state": "NM",
+        "country": "USA",
+        "donate_link": "https://albuquerquefoundation.org/emergency-action-fund-grant-application.aspx"
+    },
+    {
+        "name_of_fund": "COVID-19 Response Fund",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Delivering food boxes to food banks across the country.",
+        "administrator": "Feeding America",
+        "country": "USA",
+        "donate_link": "https://www.feedingamerica.org/take-action/coronavirus"
+    },
+    {
+        "name_of_fund": "One Louisville COVID-19 Response Fund",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Financial assistance for communities, households, and businesses to \"rental assistance, childcare assistance, transportation aid, food access, utility assistance, pharmaceutical needs and other support.\"",
+        "administrator": "Community Foundation of Louisville",
+        "city": "Louisville",
+        "state": "KY",
+        "country": "USA",
+        "donate_link": "https://cfl.iphiview.com/cfl/DonorsFundholders/AccountInformation/tabid/495/dispatch/accountselection_id$281928_hash$2deaa6fb85c13529941773b9d0f23951919895a5/Default.aspx"
+    },
+    {
+        "name_of_fund": "Norton Heathcare Foundation Community COVID-19 Fund",
+        "beneficiary": "None specified",
+        "purpose": "FInancial support to increase medical access to the Louisville community, including additional clinics, a mobile response unit, and increased access to telemedicine services.",
+        "administrator": "Community Foundation of Louisville",
+        "city": "Louisville",
+        "state": "KY",
+        "country": "USA",
+        "donate_link": "https://cfl.iphiview.com/cfl/DonorsFundholders/AccountInformation/tabid/495/dispatch/accountselection_id$282415_hash$537ba812aa6ec17f70f4ee09b280a36a20afdd6e/Default.aspx"
+    },
+    {
+        "name_of_fund": "Coronavirus Response Fund",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "\"Charitable grants will fund organizations and programs that have deep roots in Central and Appalachia Kentucky and strong experience working to provide residents with access to food, prescriptions/healthcare and other childcare and basic needs. \"",
+        "administrator": "Blue Grass Community Foundation",
+        "state": "KY",
+        "country": "USA",
+        "donate_link": "https://www.bgcf.org/coronavirus"
+    },
+    {
+        "name_of_fund": "COVID-19 Response & Recovery Fund for Idaho",
+        "beneficiary": "Nonprofit organizations",
+        "purpose": "Support to organizations with vulnerable and low-income communities.",
+        "administrator": "Idaho Community Foundation, Idaho Nonprofit Center, United Way of Idaho",
+        "state": "ID",
+        "country": "USA",
+        "donate_link": "https://www.idahocf.org/covid-19"
+    },
+    {
+        "name_of_fund": "COVID-19 Response and Relief Funds",
+        "beneficiary": "Vulnerable communities; Healthcare workers",
+        "purpose": "Provide childcare, meals, and other services for families and health care workers; support for small businesses; equipment for hospitals and clinics; services for houseless people.",
+        "administrator": "Mayor's COVID-19 Crisis Fund of LA",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://mayorsfundla.org/covid19/"
+    },
+    {
+        "name_of_fund": "One Pantry At A Time",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Provide a grocery card to every child qualifying for free or reduced lunch in Arlington Public Schools.",
+        "administrator": "Aaron Schuetz",
+        "city": "Arlington",
+        "state": "VA",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/optin-one-pantry-at-a-time"
+    },
+    {
+        "name_of_fund": "Banding Together",
+        "beneficiary": "Musicians; Hospitality industry; Service industry workers",
+        "purpose": "Financial relief to those in the Austin live music community financially impacted by the cancellation of SXSW.",
+        "administrator": "Red River Cultural District",
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/bandingtogether2020"
+    },
+    {
+        "name_of_fund": "New York City Relief Fund",
+        "beneficiary": "Nonprofit organizations",
+        "purpose": "Financial support to the Food Bank for NYC.",
+        "administrator": "Frederick Joseph",
+        "city": "New York City",
+        "state": "NY",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/helping-new-york-city-during-covid19"
+    },
+    {
+        "name_of_fund": "Equal Access to Online Learning",
+        "beneficiary": "Vulnerable communities",
+        "purpose": "Purchase chromebooks and hotspots to provide equal remote learning access to students of Impact Public Schools in Puget Sound.",
+        "administrator": "Jen Wickens",
+        "city": "Tukwila",
+        "state": "WA",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/chromebooks-for-kids-in-need"
+    },
+    {
+        "name_of_fund": "South by South Best",
+        "beneficiary": "Hospitality industry workers; service industry workers",
+        "purpose": "Financial assistance to individuals affected by the cancellation of SXSW",
+        "administrator": "T3",
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/south-by-south-best"
+    },
+    {
+        "name_of_fund": "The 5 Spot Community Fund",
+        "beneficiary": "Musicians; Local business employees",
+        "purpose": "Financial assistance to the 5 Spot, its employees, and scheduled bands who were impacted by its closure in response to COVID-19.",
+        "administrator": "The 5 Spot",
+        "city": "Nashville",
+        "state": "TN",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/the-5-spot-community-fund"
     }
 ]
