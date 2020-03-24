@@ -12,9 +12,9 @@ async function run() {
         await client.connect();
 
         await client.query(`
-                    INSERT INTO users (email, hash)
-                    VALUES ($1, $2)
-       `,
+            INSERT INTO users (email, hash)
+            VALUES ($1, $2)
+        `,
         ['test@test.com', 'test']);
 
         await Promise.all(
