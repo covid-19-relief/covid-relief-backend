@@ -19,12 +19,6 @@ async function run() {
 
         // run a query to create tables
         await client.query(`
-                CREATE TABLE users (
-                    id SERIAL PRIMARY KEY,
-                    email VARCHAR(256) NOT NULL,
-                    hash VARCHAR(512) NOT NULL
-                    
-                );           
                 CREATE TABLE relief_listings (
                     id SERIAL PRIMARY KEY NOT NULL,
                     name_of_fund VARCHAR(256),
@@ -37,7 +31,6 @@ async function run() {
                     donate_link VARCHAR(600),
                     assistance_link VARCHAR(600),
                     img_url VARCHAR(600),
-                    user_id INTEGER,
                     lat VARCHAR(256),
                     long VARCHAR(256)
             );

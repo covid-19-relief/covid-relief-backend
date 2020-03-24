@@ -19,7 +19,6 @@ async function run() {
     
         await client.query(`
             DROP TABLE IF EXISTS relief_listings;
-            DROP TABLE IF EXISTS users;
         `);
 
         console.log('drop tables complete');
