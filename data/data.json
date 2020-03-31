@@ -10,6 +10,16 @@
         "donate_link": "https://www.paypal.com/pools/c/8nnys8G2Qc"
     },
     {
+        "name_of_fund": "PDX COVID-19 Mutual Aid Network Fundraiser",
+        "beneficiaries": "BIPOC; LGBTQI+; Vulnerable communities",
+        "purpose": "Purchase supplies, help to pay bills, and support mutual aid efforts for \"those who are sick, unhoused, disabled, quarantined without pay, elderly, undocumented, trans and queer, Black, Indigenous, People of Color, including immigrants, refugees, and those who have been displaced from Portland to nearby areas.\"",
+        "administrator": "PDX COVID-19 Mutual Aid Society",
+        "city": "Portland",
+        "state": "OR",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/pdx-covid19-mutual-aid-network-fundraiser"
+    },
+    {
         "name_of_fund": "The Oglala Sioux Tribe COVID-19 Disaster Relief Fund",
         "beneficiaries": "BIPOC; Vulnerable communities",
         "purpose": "Support to the Ogalala Sioux Tribe in \"acquiring needed medical supplies, develop quarantine protocols that give the tribe access food and decontamination supplies in case of a local pandemic event.\"",
@@ -182,7 +192,7 @@
         "name_of_fund": "Seattle Artists Relief Fund Amid COVID-19",
         "beneficiaries": "Creators and artists",
         "purpose": "Financial assistance to \"those in the greater Seattle arts community who have been financially impacted by cancellations due to COVID-19.\"",
-        "administrator": "Ijeoma Oluo",
+        "administrator": "Langston Seattle",
         "city": "Seattle",
         "state": "WA",
         "country": "USA",
@@ -392,6 +402,45 @@
         "donate_link": "https://domesticworkers.org/coronavirus-care-fund"
     },
     {
+        "name_of_fund": "Help our Public Schools Prepare and Respond to the COVID-19 Pandemic",
+        "beneficiaries": "Education",
+        "purpose": "Ensure food and technology support to students in San Francisco public schools; ensure school environments are clean and hygienic.",
+        "administrator": "Spark*SF Public Schools",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://secure.givelively.org/donate/spark-sf-public-schools/urgent-help-our-public-schools-prepare-and-respond-to-the-covid-19-pandemic"
+    },
+    {
+        "name_of_fund": "Equal Access to Online Learning",
+        "beneficiaries": "Education",
+        "purpose": "Purchase chromebooks and hotspots to provide equal remote learning access to students of Impact Public Schools in Puget Sound.",
+        "administrator": "Jen Wickens",
+        "city": "Tukwila",
+        "state": "WA",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/chromebooks-for-kids-in-need"
+    },
+    {
+        "name_of_fund": "Carolina Student Impact Fund",
+        "beneficiaries": "Education; Vulnerable communities",
+        "purpose": "\"Emergency support for various expenses, such as housing, food, travel and technology to students who are unable to meet the unexpected financial burdens resulting from the effects of the novel coronavirus.\"",
+        "administrator": "UNC Helping Heels",
+        "state": "NC",
+        "country": "USA",
+        "donate_link": "https://campaign.unc.edu/helping-heels/",
+        "assistance_link": "Email: covidcareforstudents@unc.edu or ccfs@unc.edu"
+    },
+    {
+        "name_of_fund": "COVID-19 Emergency Response",
+        "beneficiaries": "Education; Vulnerable communities",
+        "purpose": "\"Provide students and displaced workers with the digital access they need to continue school, and work from home and to access tele-appointments with doctors.\"",
+        "administrator": "Free Geek",
+        "state": "OR",
+        "country": "USA",
+        "donate_link": "https://secure.givelively.org/donate/free-geek/covid-19-emergency-response"
+    },
+    {
         "name_of_fund": "Freelancer COVID-19 Emergency Fund",
         "beneficiaries": "Freelancers",
         "purpose": "Temporary assistance for freelancers \"adversely affected by the COVID-19 virus and resulting public response.\"",
@@ -421,6 +470,26 @@
         "assistance_link": "https://www.surveymonkey.com/r/GQKXL5K"
     },
     {
+        "name_of_fund": "FeedER",
+        "beneficiaries": "Health care workers",
+        "purpose": "Delivers meals to health care workers on the front lines of the pandemic response in the East Bay",
+        "administrator": "Ayelet Waldman",
+        "city": "Oakland",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/feeder"
+    },
+    {
+        "name_of_fund": "NYC Health + Hospitals COVID-19 Relief Efforts",
+        "beneficiaries": "Health care workers",
+        "purpose": "Provides meals, groceries, hotel rooms, laundry services, and scrubs to NYC health care workers on the front lines of the pandemic response.",
+        "administrator": "NYC Health+Hospitals",
+        "city": "New York City",
+        "state": "NY",
+        "country": "USA",
+        "donate_link": "https://nychhc.networkforgood.com/"
+    },
+    {
         "name_of_fund": "Meal Delivery for Puget Sound Hospital Staff",
         "beneficiaries": "Health care workers",
         "purpose": "Delivers \"high-quality, nutritious, multi-course meals\" to medical staff in King County hospitals.",
@@ -432,6 +501,33 @@
         "assistance_link": "meals@lookahead.io"
     },
     {
+        "name_of_fund": "Masks 4WA: Coronavirus Support Fund in Washington",
+        "beneficiaries": "Health care workers",
+        "purpose": "Purchase and deliver surgical masks to King County hospitals.",
+        "administrator": "Zinan Chrysti Chen",
+        "city": "Seattle",
+        "state": "WA",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/masks-4-wa"
+    },
+    {
+        "name_of_fund": "Providence Helping Hands",
+        "beneficiaries": "Health care workers",
+        "purpose": "\"Support Providence caregivers (all employees) who may be financially affected by the coronavirus crisis.\"",
+        "administrator": "Providence Care",
+        "country": "USA",
+        "donate_link": "https://psjh.give.providence.org/give/276368/#!/donation/checkout?designation=136412"
+    },
+    {
+        "name_of_fund": "Masks for Docs",
+        "beneficiaries": "Health care workers",
+        "purpose": "Purchases and delivers PPE to health care workers.",
+        "administrator": "MasksforDocs",
+        "country": "USA",
+        "donate_link": "https://masksfordocs.com/",
+        "assistance_link": "https://designtocombatcovid19.typeform.com/to/FZkS4e"
+    },
+    {
         "name_of_fund": "Help Medics Make and Give Out Hand Sanitizer",
         "beneficiaries": "Health care workers; Vulnerable communities",
         "purpose": "Funds manufacture of hand sanitizer for distribution to houseless people, service industry workers, and people engaged in mutual aid work.",
@@ -440,6 +536,17 @@
         "state": "OR",
         "country": "USA",
         "donate_link": "https://www.gofundme.com/f/help-medics-give-out-hand-sanitizer"
+    },
+    {
+        "name_of_fund": "Send Coffee to Healthcare Workers",
+        "beneficiaries": "Healthcare workers; Local business employees",
+        "purpose": "Keep a local coffee roaster and bakery running by donating to send hot coffee and baked goods to health care workers. (Small Plane Roasters and Bluebird Bakery)",
+        "administrator": "Peregrine Espresso",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "http://peregrineespresso.com/sendcoffee",
+        "assistance_link": "https://docs.google.com/forms/d/e/1FAIpQLSd50tLpPjA41YNrRcY8RhQlMvuHjG3Y5fFM2ASayrKqbgj8Gg/viewform"
     },
     {
         "name_of_fund": "Saint Louis Hospitality Staff Members",
@@ -471,6 +578,16 @@
         "country": "USA",
         "donate_link": "https://www.gofundme.com/f/seattle-hospitality-emergency-fund",
         "assistance_link": "https://www.surveymonkey.com/r/QHRPQ95"
+    },
+    {
+        "name_of_fund": "South by South Best",
+        "beneficiaries": "Hospitality industry workers; service industry workers",
+        "purpose": "Financial assistance to individuals affected by the cancellation of SXSW",
+        "administrator": "T3",
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/south-by-south-best"
     },
     {
         "name_of_fund": "COVID-19 Relief Fund for Self-Employed & Service Economy LGBTQI+ BIPOC",
@@ -596,6 +713,26 @@
         "donate_link": "https://charity.gofundme.com/o/en/campaign/seed-commons-worker-response-fund"
     },
     {
+        "name_of_fund": "Support Our Staff",
+        "beneficiaries": "Local business employees; Dining and beverage industry workers",
+        "purpose": "Provide financial support to Beucherts Saloon employees who are not working due to pandemic mitigation measures.",
+        "administrator": "Beucherts Saloon",
+        "city": "Washington",
+        "state": "DC",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/zz2mj6-support-our-staff"
+    },
+    {
+        "name_of_fund": "Support Street Roots",
+        "beneficiaries": "Local business employees; Vulnerable communities",
+        "purpose": "Direct financial support to Street Roots vendors while print publication of Street Roots is suspended.",
+        "administrator": "Street Roots",
+        "city": "Portland",
+        "state": "OR",
+        "country": "USA",
+        "donate_link": "https://secure.qgiv.com/for/vif"
+    },
+    {
         "name_of_fund": "Boston Music Maker Relief Fund",
         "beneficiaries": "Musicians",
         "purpose": "Direct financial assistance up to $200 for \"music makers in the Boston area experiencing lost revenue from gig cancellations resulting from coronavirus and COVID-19.\"",
@@ -674,6 +811,36 @@
         "assistance_link": "https://www.grammy.com/musicares/get-help/covid-19-relief-fund-faq"
     },
     {
+        "name_of_fund": "Banding Together",
+        "beneficiaries": "Musicians; Hospitality industry; Service industry workers",
+        "purpose": "Financial relief to those in the Austin live music community financially impacted by the cancellation of SXSW.",
+        "administrator": "Red River Cultural District",
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/bandingtogether2020"
+    },
+    {
+        "name_of_fund": "The 5 Spot Community Fund",
+        "beneficiaries": "Musicians; Local business employees",
+        "purpose": "Financial assistance to the 5 Spot, its employees, and scheduled bands who were impacted by its closure in response to COVID-19.",
+        "administrator": "The 5 Spot",
+        "city": "Nashville",
+        "state": "TN",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/the-5-spot-community-fund"
+    },
+    {
+        "name_of_fund": "Norton Heathcare Foundation Community COVID-19 Fund",
+        "beneficiaries": "None specified",
+        "purpose": "FInancial support to increase medical access to the Louisville community, including additional clinics, a mobile response unit, and increased access to telemedicine services.",
+        "administrator": "Community Foundation of Louisville",
+        "city": "Louisville",
+        "state": "KY",
+        "country": "USA",
+        "donate_link": "https://cfl.iphiview.com/cfl/DonorsFundholders/AccountInformation/tabid/495/dispatch/accountselection_id$282415_hash$537ba812aa6ec17f70f4ee09b280a36a20afdd6e/Default.aspx"
+    },
+    {
         "name_of_fund": "C3 Test for Coronavirus & COVID-19",
         "beneficiaries": "None specified",
         "purpose": "Financial support to produce 1,000 tests/day using C3 method, which can return results within four hours for people with mild or no symptoms.",
@@ -682,6 +849,16 @@
         "state": "NY",
         "country": "USA",
         "donate_link": "https://www.indiegogo.com/projects/c3-test-for-coronavirus-covid-19#/"
+    },
+    {
+        "name_of_fund": "Portland Coronavirus Mutual Aid Fund",
+        "beneficiaries": "None specified",
+        "purpose": "Financial support to anyone affected by COVID-19, either through \"loss of work or health costs.\"",
+        "administrator": "Symbiosis PDX",
+        "city": "Portland",
+        "state": "OR",
+        "country": "USA",
+        "donate_link": "https://opencollective.com/portland-corona-virus-mutual-aid-fund"
     },
     {
         "name_of_fund": "C19 Help Squad",
@@ -703,13 +880,72 @@
     {
         "name_of_fund": "San Diego COVID-19 Community Response Fund",
         "beneficiaries": "Nonprofit Organizations",
-        "purpose": "\"Make emergency grants to nonprofit organizations that have deep roots and strong experience supporting impacted communities, particularly those that are disproportionately affected by this global pandemic and its economic consequences. Grant funding will focus on three critical areas: food security, rental and utility assistance, and income replacement or gap funding.\"",
+        "purpose": "\"Make emergency grants to nonprofit organizations that have deep roots and strong experience supporting impacted communities, particularly those that are disproportionately affected by this global pandemic and its economic consequences. Grant funding will focus on three critical areas: food security, rental and utility assistance, and income replacement or gap funding.\"",
         "administrator": "The San Diego Foundation",
         "city": "San Diego",
         "state": "CA",
         "country": "USA",
         "donate_link": "https://www.sdfoundation.org/programs/programs-and-funds/san-diego-covid-19-community-response-fund/",
         "assistance_link": "https://www.sdfoundation.org/programs/programs-and-funds/san-diego-covid-19-community-response-fund/"
+    },
+    {
+        "name_of_fund": "SFF COVID-19 Emergency Response Fund",
+        "beneficiaries": "Nonprofit organizations",
+        "purpose": "Financial support to community organizations (between $3,000-$25,000) focusing on worker support, homelessness and renter protections, food security, or addressing racial violence.",
+        "administrator": "San Francisco Foundation",
+        "city": "Bay Area",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://sff.org/make-an-impact/give-new/",
+        "assistance_link": "https://sff.org/for-nonprofits-apply-for-a-grant-from-the-sff-covid-19-emergency-response-fund/"
+    },
+    {
+        "name_of_fund": "COVID-19 Regional Response Fund",
+        "beneficiaries": "Nonprofit organizations",
+        "purpose": "Financial support for community organizations working to provide \"housing/shelter, food, clothing, financial assistance\" for people without health insurance/sick days, limited English proficiency, healthcare workers, gig workers, BIPOC.",
+        "administrator": "Silicon Valley Community Foundation",
+        "city": "Bay Area",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://www.siliconvalleycf.org/coronavirus-fund"
+    },
+    {
+        "name_of_fund": "COVID-19 Relief Fund",
+        "beneficiaries": "Nonprofit organizations",
+        "purpose": "Grants between $5,000-$30,000 to support community organizations working to help vulnerable people with basic needs.",
+        "administrator": "Community Foundation for Monterey County, Monterey Peninsula Foundation",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://www.cfmco.org/give-now/?fund=19651",
+        "assistance_link": "https://www.cfmco.org/nonprofits/grants/covid-19-relief-grants/"
+    },
+    {
+        "name_of_fund": "COVID-19 Response & Recovery Fund for Idaho",
+        "beneficiaries": "Nonprofit organizations",
+        "purpose": "Support to organizations with vulnerable and low-income communities.",
+        "administrator": "Idaho Community Foundation, Idaho Nonprofit Center, United Way of Idaho",
+        "state": "ID",
+        "country": "USA",
+        "donate_link": "https://www.idahocf.org/covid-19"
+    },
+    {
+        "name_of_fund": "COVID-19 Response Fund",
+        "beneficiaries": "Nonprofit organizations",
+        "purpose": "Support to \"support of seniors, children, immigrants, workers and other vulnerable populations\" in the greater Boston areas.",
+        "administrator": "Boston Foundation",
+        "city": "Boston",
+        "state": "MA",
+        "country": "USA",
+        "donate_link": "https://www.tbf.org/what-we-do/special-funds/covid-19-response-fund"
+    },
+    {
+        "name_of_fund": "ACF/UWCNM Emergency Action Fund",
+        "beneficiaries": "Nonprofit organizations",
+        "purpose": "Financial support for organizations whose operations are affected by \"loss of revenue and non-recoverable expenses\" as a result of COVID-19.",
+        "administrator": "Albuquerque Community Foundation, United Way of Central New Mexico",
+        "state": "NM",
+        "country": "USA",
+        "donate_link": "https://albuquerquefoundation.org/emergency-action-fund-grant-application.aspx"
     },
     {
         "name_of_fund": "Brooklyn COVID-19 Response Fund",
@@ -721,6 +957,16 @@
         "country": "USA",
         "donate_link": "https://www.brooklyncommunityfoundation.org/COVID19",
         "assistance_link": "https://www.brooklyncommunityfoundation.org/COVID-19-Grants"
+    },
+    {
+        "name_of_fund": "New York City Relief Fund",
+        "beneficiaries": "Nonprofit organizations",
+        "purpose": "Financial support to the Food Bank for NYC.",
+        "administrator": "Frederick Joseph",
+        "city": "New York City",
+        "state": "NY",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/helping-new-york-city-during-covid19"
     },
     {
         "name_of_fund": "Oregon Community Recovery Fund",
@@ -758,6 +1004,23 @@
         "country": "USA",
         "donate_link": "https://socialjusticefund.org/covid-19-crisis-fund/",
         "assistance_link": "https://docs.google.com/forms/d/1S6i0JnhsqI1mxvMiKJEMuYVLyaT_CL6fNJiuERk0jPY/viewform?edit_requested=true"
+    },
+    {
+        "name_of_fund": "COVID-19 Response Fund for the Pioneer Valley",
+        "beneficiaries": "Nonprofit organizations; Vulnerable communities",
+        "purpose": "\"One-time operating grants to support frontline organizations with deep roots within priority populations.\"",
+        "administrator": "Community Foundation of Western Massachusetts",
+        "state": "MA",
+        "country": "USA",
+        "donate_link": "http://communityfoundation.org/about-the-covid-19-response-fund-for-the-pioneer-valley/"
+    },
+    {
+        "name_of_fund": "CDP COVID-19 Response Fund",
+        "beneficiaries": "Nonprofit organizations; Vulnerable communities",
+        "purpose": "Support to \"nonprofit organizations working directly to respond to the pandemic among the most vulnerable populations in order to help build their capacity for response,\" including \"social service organizations focused on supporting hourly wage earners, workers in the gig economy, immigrant/New American populations, older adults, people with disabilities and other communities vulnerable to the physical health, mental health and economic impacts of the pandemic.\"",
+        "administrator": "Center for Disaster Philanthropy",
+        "country": "USA",
+        "donate_link": "https://disasterphilanthropy.org/cdp-fund/cdp-covid-19-response-fund/"
     },
     {
         "name_of_fund": "Modest Needs Fund for Hourly Workers",
@@ -859,14 +1122,34 @@
         "donate_link": "https://littlebrotherssf.networkforgood.com/projects/95387-help-an-elderly-sf-citizen-during-the-covid19-outbreak?fbclid=IwAR20P3y8RzShNumCW-AESOn-mNAQadKJl41M7U0btNdYHHeMrUykExqxgDk"
     },
     {
-        "name_of_fund": "Help our Public Schools Prepare and Respond to the COVID-19 Pandemic",
+        "name_of_fund": "UNITED SIKHS Emergency Hotline",
         "beneficiaries": "Vulnerable communities",
-        "purpose": "Ensure food and technology support to students in San Francisco public schools; ensure school environments are clean and hygienic.",
-        "administrator": "Spark*SF Public Schools",
-        "city": "San Francisco",
-        "state": "CA",
+        "purpose": "Provide and deliver hot meals, dry goods, and medicines.",
+        "administrator": "UNITED SIKHS",
+        "city": "Dallas, Houston, LA County, Riverside County, Orange County",
+        "state": "CA, TX",
         "country": "USA",
-        "donate_link": "https://secure.givelively.org/donate/spark-sf-public-schools/urgent-help-our-public-schools-prepare-and-respond-to-the-covid-19-pandemic"
+        "donate_link": "https://unitedsikhs.org/donate/",
+        "assistance_link": "https://unitedsikhs.org/united-sikhs-urges-those-in-need-to-use-hotline-during-covid-19-crisis/"
+    },
+    {
+        "name_of_fund": "One Louisville COVID-19 Response Fund",
+        "beneficiaries": "Vulnerable communities",
+        "purpose": "Financial assistance for communities, households, and businesses to \"rental assistance, childcare assistance, transportation aid, food access, utility assistance, pharmaceutical needs and other support.\"",
+        "administrator": "Community Foundation of Louisville",
+        "city": "Louisville",
+        "state": "KY",
+        "country": "USA",
+        "donate_link": "https://cfl.iphiview.com/cfl/DonorsFundholders/AccountInformation/tabid/495/dispatch/accountselection_id$281928_hash$2deaa6fb85c13529941773b9d0f23951919895a5/Default.aspx"
+    },
+    {
+        "name_of_fund": "Coronavirus Response Fund",
+        "beneficiaries": "Vulnerable communities",
+        "purpose": "\"Charitable grants will fund organizations and programs that have deep roots in Central and Appalachia Kentucky and strong experience working to provide residents with access to food, prescriptions/healthcare and other childcare and basic needs. \"",
+        "administrator": "Blue Grass Community Foundation",
+        "state": "KY",
+        "country": "USA",
+        "donate_link": "https://www.bgcf.org/coronavirus"
     },
     {
         "name_of_fund": "COVID-19 Relief and Stabilization Fund",
@@ -911,14 +1194,53 @@
         "assistance_link": "Email: info@nysylc.org"
     },
     {
-        "name_of_fund": "PDX COVID-19 Mutual Aid Network Fundraiser",
+        "name_of_fund": "NYC COVID-19 Financial Solidarity for Formerly Incarcerated People and Their Families",
         "beneficiaries": "Vulnerable communities",
-        "purpose": "Purchase supplies, help to pay bills, and support mutual aid efforts for \"those who are sick, unhoused, disabled, quarantined without pay, elderly, undocumented, trans and queer, Black, Indigenous, People of Color, including immigrants, refugees, and those who have been displaced from Portland to nearby areas.\"",
-        "administrator": "PDX COVID-19 Mutual Aid Society",
-        "city": "Portland",
+        "purpose": "Financial aid up to $250/recipient to formerly incarcerated people and their families who are financially impacted by the pandemic or mitigation measures.",
+        "city": "New York City",
+        "state": "NY",
+        "country": "USA",
+        "donate_link": "https://mutualaid2020.wixsite.com/financialsolidarity"
+    },
+    {
+        "name_of_fund": "Food for Cottage Grove Homeless Kids",
+        "beneficiaries": "Vulnerable communities",
+        "purpose": "Provide a $50 emergency grocery card to all homeless children living in South Lane School District.",
+        "administrator": "Jade Chamness",
+        "city": "Cottage Grove",
         "state": "OR",
         "country": "USA",
-        "donate_link": "https://www.gofundme.com/f/pdx-covid19-mutual-aid-network-fundraiser"
+        "donate_link": "https://www.gofundme.com/f/food-for-cottage-grove-homeless-kids-covid19"
+    },
+    {
+        "name_of_fund": "One Sioux Falls Fund",
+        "beneficiaries": "Vulnerable Communities",
+        "purpose": "Support to people facing eviction or foreclosure in the Sioux Falls area.",
+        "administrator": "Sioux Falls Area Community Foundation",
+        "city": "Sioux Falls",
+        "state": "SD",
+        "country": "USA",
+        "donate_link": "https://www.sfacf.org/covid-19"
+    },
+    {
+        "name_of_fund": "AISD Crisis Support Fund",
+        "beneficiaries": "Vulnerable communities",
+        "purpose": "Provide food, low income telehealth services, remote learning, and other needs to students and families in the AISD.",
+        "administrator": "Austin Ed Fund",
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA",
+        "donate_link": "https://austinedfund.org/crisis-support-fund/"
+    },
+    {
+        "name_of_fund": "One Pantry At A Time",
+        "beneficiaries": "Vulnerable communities",
+        "purpose": "Provide a grocery card to every child qualifying for free or reduced lunch in Arlington Public Schools.",
+        "administrator": "Aaron Schuetz",
+        "city": "Arlington",
+        "state": "VA",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/optin-one-pantry-at-a-time"
     },
     {
         "name_of_fund": "Expensify Hunger",
@@ -953,6 +1275,14 @@
         "donate_link": "https://secure.unitedway.org/j/step/covid19-donate"
     },
     {
+        "name_of_fund": "COVID-19 Response Fund",
+        "beneficiaries": "Vulnerable communities",
+        "purpose": "Delivering food boxes to food banks across the country.",
+        "administrator": "Feeding America",
+        "country": "USA",
+        "donate_link": "https://www.feedingamerica.org/take-action/coronavirus"
+    },
+    {
         "name_of_fund": "Undocu Workers Fund",
         "beneficiaries": "Vulnerable communities; Dining & beverage industry workers",
         "purpose": "Financial assistance to undocumented service industry workers who cannot apply for unemployment in Manhattan and Brooklyn.",
@@ -963,156 +1293,12 @@
         "donate_link": "Venmo undocuworkersfund@gmail.com"
     },
     {
-        "name_of_fund": "COVID-19 Response Fund for the Pioneer Valley",
-        "beneficiaries": "Nonprofit organizations; Vulnerable communities",
-        "purpose": "\"One-time operating grants to support frontline organizations with deep roots within priority populations.\"",
-        "administrator": "Community Foundation of Western Massachusetts",
-        "state": "MA",
+        "name_of_fund": "Providence COVID-19 Response",
+        "beneficiaries": "Vulnerable communities; health care workers",
+        "purpose": "Provide basic necessities and home-based care to vulnerable persons. This is also the fund to support PPE sourcing for Providence health care workers.",
+        "administrator": "Providence Care",
         "country": "USA",
-        "donate_link": "http://communityfoundation.org/about-the-covid-19-response-fund-for-the-pioneer-valley/"
-    },
-    {
-        "name_of_fund": "Blue Grass Farms Charities: COVID19 Preparedness",
-        "beneficiaries": "Vulnerable communities; Service industry workers",
-        "purpose": "Providing food aid and assistance with other basic necessities to farm workers in Central Kentucky's Thoroughbred industry.",
-        "administrator": "Blue Grass Farms Charities",
-        "state": "KY",
-        "country": "USA",
-        "donate_link": "https://www.bgfcky.org/"
-    },
-    {
-        "name_of_fund": "CDP COVID-19 Response Fund",
-        "beneficiaries": "Nonprofit organizations; Vulnerable communities",
-        "purpose": "Support to \"nonprofit organizations working directly to respond to the pandemic among the most vulnerable populations in order to help build their capacity for response,\" including \"social service organizations focused on supporting hourly wage earners, workers in the gig economy, immigrant/New American populations, older adults, people with disabilities and other communities vulnerable to the physical health, mental health and economic impacts of the pandemic.\"",
-        "administrator": "Center for Disaster Philanthropy",
-        "country": "USA",
-        "donate_link": "https://disasterphilanthropy.org/cdp-fund/cdp-covid-19-response-fund/"
-    },
-    {
-        "name_of_fund": "COVID-19 Response Fund",
-        "beneficiaries": "Nonprofit organizations",
-        "purpose": "Support to \"support of seniors, children, immigrants, workers and other vulnerable populations\" in the greater Boston areas.",
-        "administrator": "Boston Foundation",
-        "city": "Boston",
-        "state": "MA",
-        "country": "USA",
-        "donate_link": "https://www.tbf.org/what-we-do/special-funds/covid-19-response-fund"
-    },
-    {
-        "name_of_fund": "Carolina Student Impact Fund",
-        "beneficiaries": "Vulnerable communities",
-        "purpose": "\"Emergency support for various expenses, such as housing, food, travel and technology to students who are unable to meet the unexpected financial burdens resulting from the effects of the novel coronavirus.\"",
-        "administrator": "UNC Helping Heels",
-        "state": "NC",
-        "country": "USA",
-        "donate_link": "https://campaign.unc.edu/helping-heels/",
-        "assistance_link": "Email: covidcareforstudents@unc.edu or ccfs@unc.edu"
-    },
-    {
-        "name_of_fund": "SFF COVID-19 Emergency Response Fund",
-        "beneficiaries": "Nonprofit organizations",
-        "purpose": "Financial support to community organizations (between $3,000-$25,000) focusing on worker support, homelessness and renter protections, food security, or addressing racial violence.",
-        "administrator": "San Francisco Foundation",
-        "city": "Bay Area",
-        "state": "CA",
-        "country": "USA",
-        "donate_link": "https://sff.org/make-an-impact/give-new/",
-        "assistance_link": "https://sff.org/for-nonprofits-apply-for-a-grant-from-the-sff-covid-19-emergency-response-fund/"
-    },
-    {
-        "name_of_fund": "COVID-19 Regional Response Fund",
-        "beneficiaries": "Nonprofit organizations",
-        "purpose": "Financial support for community organizations working to provide \"housing/shelter, food, clothing, financial assistance\" for people without health insurance/sick days, limited English proficiency, healthcare workers, gig workers, BIPOC.",
-        "administrator": "Silicon Valley Community Foundation",
-        "city": "Bay Area",
-        "state": "CA",
-        "country": "USA",
-        "donate_link": "https://www.siliconvalleycf.org/coronavirus-fund"
-    },
-    {
-        "name_of_fund": "One Sioux Falls Fund",
-        "beneficiaries": "Vulnerable Communities",
-        "purpose": "Support to people facing eviction or foreclosure in the Sioux Falls area.",
-        "administrator": "Sioux Falls Area Community Foundation",
-        "city": "Sioux Falls",
-        "state": "SD",
-        "country": "USA",
-        "donate_link": "https://www.sfacf.org/covid-19"
-    },
-    {
-        "name_of_fund": "COVID-19 Relief Fund",
-        "beneficiaries": "Nonprofit organizations",
-        "purpose": "Grants between $5,000-$30,000 to support community organizations working to help vulnerable people with basic needs.",
-        "administrator": "Community Foundation for Monterey County, Monterey Peninsula Foundation",
-        "state": "CA",
-        "country": "USA",
-        "donate_link": "https://www.cfmco.org/give-now/?fund=19651",
-        "assistance_link": "https://www.cfmco.org/nonprofits/grants/covid-19-relief-grants/"
-    },
-    {
-        "name_of_fund": "AISD Crisis Support Fund",
-        "beneficiaries": "Vulnerable communities",
-        "purpose": "Provide food, low income telehealth services, remote learning, and other needs to students and families in the AISD.",
-        "administrator": "Austin Ed Fund",
-        "city": "Austin",
-        "state": "TX",
-        "country": "USA",
-        "donate_link": "https://austinedfund.org/crisis-support-fund/"
-    },
-    {
-        "name_of_fund": "ACF/UWCNM Emergency Action Fund",
-        "beneficiaries": "Nonprofit organizations",
-        "purpose": "Financial support for organizations whose operations are affected by \"loss of revenue and non-recoverable expenses\" as a result of COVID-19.",
-        "administrator": "Albuquerque Community Foundation, United Way of Central New Mexico",
-        "state": "NM",
-        "country": "USA",
-        "donate_link": "https://albuquerquefoundation.org/emergency-action-fund-grant-application.aspx"
-    },
-    {
-        "name_of_fund": "COVID-19 Response Fund",
-        "beneficiaries": "Vulnerable communities",
-        "purpose": "Delivering food boxes to food banks across the country.",
-        "administrator": "Feeding America",
-        "country": "USA",
-        "donate_link": "https://www.feedingamerica.org/take-action/coronavirus"
-    },
-    {
-        "name_of_fund": "One Louisville COVID-19 Response Fund",
-        "beneficiaries": "Vulnerable communities",
-        "purpose": "Financial assistance for communities, households, and businesses to \"rental assistance, childcare assistance, transportation aid, food access, utility assistance, pharmaceutical needs and other support.\"",
-        "administrator": "Community Foundation of Louisville",
-        "city": "Louisville",
-        "state": "KY",
-        "country": "USA",
-        "donate_link": "https://cfl.iphiview.com/cfl/DonorsFundholders/AccountInformation/tabid/495/dispatch/accountselection_id$281928_hash$2deaa6fb85c13529941773b9d0f23951919895a5/Default.aspx"
-    },
-    {
-        "name_of_fund": "Norton Heathcare Foundation Community COVID-19 Fund",
-        "beneficiaries": "None specified",
-        "purpose": "FInancial support to increase medical access to the Louisville community, including additional clinics, a mobile response unit, and increased access to telemedicine services.",
-        "administrator": "Community Foundation of Louisville",
-        "city": "Louisville",
-        "state": "KY",
-        "country": "USA",
-        "donate_link": "https://cfl.iphiview.com/cfl/DonorsFundholders/AccountInformation/tabid/495/dispatch/accountselection_id$282415_hash$537ba812aa6ec17f70f4ee09b280a36a20afdd6e/Default.aspx"
-    },
-    {
-        "name_of_fund": "Coronavirus Response Fund",
-        "beneficiaries": "Vulnerable communities",
-        "purpose": "\"Charitable grants will fund organizations and programs that have deep roots in Central and Appalachia Kentucky and strong experience working to provide residents with access to food, prescriptions/healthcare and other childcare and basic needs. \"",
-        "administrator": "Blue Grass Community Foundation",
-        "state": "KY",
-        "country": "USA",
-        "donate_link": "https://www.bgcf.org/coronavirus"
-    },
-    {
-        "name_of_fund": "COVID-19 Response & Recovery Fund for Idaho",
-        "beneficiaries": "Nonprofit organizations",
-        "purpose": "Support to organizations with vulnerable and low-income communities.",
-        "administrator": "Idaho Community Foundation, Idaho Nonprofit Center, United Way of Idaho",
-        "state": "ID",
-        "country": "USA",
-        "donate_link": "https://www.idahocf.org/covid-19"
+        "donate_link": "https://psjh.give.providence.org/give/276368/#!/donation/checkout?designation=136412"
     },
     {
         "name_of_fund": "COVID-19 Response and Relief Funds",
@@ -1125,63 +1311,12 @@
         "donate_link": "https://mayorsfundla.org/covid19/"
     },
     {
-        "name_of_fund": "One Pantry At A Time",
-        "beneficiaries": "Vulnerable communities",
-        "purpose": "Provide a grocery card to every child qualifying for free or reduced lunch in Arlington Public Schools.",
-        "administrator": "Aaron Schuetz",
-        "city": "Arlington",
-        "state": "VA",
+        "name_of_fund": "Blue Grass Farms Charities: COVID19 Preparedness",
+        "beneficiaries": "Vulnerable communities; Service industry workers",
+        "purpose": "Providing food aid and assistance with other basic necessities to farm workers in Central Kentucky's Thoroughbred industry.",
+        "administrator": "Blue Grass Farms Charities",
+        "state": "KY",
         "country": "USA",
-        "donate_link": "https://www.gofundme.com/f/optin-one-pantry-at-a-time"
-    },
-    {
-        "name_of_fund": "Banding Together",
-        "beneficiaries": "Musicians; Hospitality industry; Service industry workers",
-        "purpose": "Financial relief to those in the Austin live music community financially impacted by the cancellation of SXSW.",
-        "administrator": "Red River Cultural District",
-        "city": "Austin",
-        "state": "TX",
-        "country": "USA",
-        "donate_link": "https://www.gofundme.com/f/bandingtogether2020"
-    },
-    {
-        "name_of_fund": "New York City Relief Fund",
-        "beneficiaries": "Nonprofit organizations",
-        "purpose": "Financial support to the Food Bank for NYC.",
-        "administrator": "Frederick Joseph",
-        "city": "New York City",
-        "state": "NY",
-        "country": "USA",
-        "donate_link": "https://www.gofundme.com/f/helping-new-york-city-during-covid19"
-    },
-    {
-        "name_of_fund": "Equal Access to Online Learning",
-        "beneficiaries": "Vulnerable communities",
-        "purpose": "Purchase chromebooks and hotspots to provide equal remote learning access to students of Impact Public Schools in Puget Sound.",
-        "administrator": "Jen Wickens",
-        "city": "Tukwila",
-        "state": "WA",
-        "country": "USA",
-        "donate_link": "https://www.gofundme.com/f/chromebooks-for-kids-in-need"
-    },
-    {
-        "name_of_fund": "South by South Best",
-        "beneficiaries": "Hospitality industry workers; service industry workers",
-        "purpose": "Financial assistance to individuals affected by the cancellation of SXSW",
-        "administrator": "T3",
-        "city": "Austin",
-        "state": "TX",
-        "country": "USA",
-        "donate_link": "https://www.gofundme.com/f/south-by-south-best"
-    },
-    {
-        "name_of_fund": "The 5 Spot Community Fund",
-        "beneficiaries": "Musicians; Local business employees",
-        "purpose": "Financial assistance to the 5 Spot, its employees, and scheduled bands who were impacted by its closure in response to COVID-19.",
-        "administrator": "The 5 Spot",
-        "city": "Nashville",
-        "state": "TN",
-        "country": "USA",
-        "donate_link": "https://www.gofundme.com/f/the-5-spot-community-fund"
+        "donate_link": "https://www.bgfcky.org/"
     }
 ]
