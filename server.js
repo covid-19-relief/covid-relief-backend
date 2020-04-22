@@ -11,7 +11,7 @@ const request = require('superagent');
 // Initiate database connection
 client.connect();
 
-// Initial Application Setup
+// Application Setup
 const app = express();
 const PORT = process.env.PORT;
 app.use(morgan('dev')); // http logging
