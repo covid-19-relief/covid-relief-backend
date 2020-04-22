@@ -20,6 +20,33 @@
         "donate_link": "https://www.gofundme.com/f/pdx-covid19-mutual-aid-network-fundraiser"
     },
     {
+        "name_of_fund": "Northern Cheyenne Fight COVID-19",
+        "beneficiaries": "BIPOC; Vulnerable communities",
+        "purpose": "Purchase hygiene supplies and protective equipment for pandemic mitigation measurs on the Northern Cheyenne reservation, and provide material support to vulnerable members of the tribe.",
+        "administrator": "Native Action Inc.",
+        "state": "MT",
+        "country": "USA",
+        "donate_link": "https://charity.gofundme.com/o/en/campaign/cheyenne-fight-covid-19"
+    },
+    {
+        "name_of_fund": "Indigenous Impact Rapid Response Initiative",
+        "beneficiaries": "BIPOC; Vulnerable communities",
+        "purpose": "\"Provide sewn protective masks, distribute healthy meal kits to elders and families, fund essential stipends directly to those in need, and send Indigenous authored books to quarantined students.\"",
+        "administrator": "Seeding Sovereignty",
+        "state": "NM",
+        "country": "USA",
+        "donate_link": "https://seedingsovereignty.org/taking-action"
+    },
+    {
+        "name_of_fund": "Pueblo Relief Fund",
+        "beneficiaries": "BIPOC; Vulnerable communities",
+        "purpose": "Provide cleaning supplies, personal protective equipment, and food to members of the Puelblo tibe to help slow the spread of COVID-19.",
+        "administrator": "All Pueblo Council of Governors, Indian Pueblo Cultural Center",
+        "state": "NM, TX",
+        "country": "USA",
+        "donate_link": "https://pueblorelieffund.org/"
+    },
+    {
         "name_of_fund": "The Oglala Sioux Tribe COVID-19 Disaster Relief Fund",
         "beneficiaries": "BIPOC; Vulnerable communities",
         "purpose": "Support to the Ogalala Sioux Tribe in \"acquiring needed medical supplies, develop quarantine protocols that give the tribe access food and decontamination supplies in case of a local pandemic event.\"",
@@ -252,6 +279,23 @@
         "donate_link": "https://membership.sfwa.org/page-308450"
     },
     {
+        "name_of_fund": "Artist Relief",
+        "beneficiaries": "Creators and artists",
+        "purpose": "Grants up to $5,000 to support artists who can \"demonstrate a sustained commitment to their work, careers, and a public audience\" and who are experiencing financial hardship because of COVID-19.",
+        "administrator": "Artist Relief",
+        "country": "USA",
+        "donate_link": "https://www.artistrelief.org/donate",
+        "assistance_link": "https://www.artistrelief.org/apply"
+    },
+    {
+        "name_of_fund": "Emergency Fund for Diverse Creatives in Children's Publishing",
+        "beneficiaries": "Creators and artists",
+        "purpose": "\"The emergency fund will provide financial aid to diverse authors, illustrators, and publishing professionals who have lost income due to the COVID-19 pandemic.\"",
+        "administrator": "We Need Diverse Books",
+        "country": "USA",
+        "donate_link": "https://diversebooks.org/donate-to-wndb/"
+    },
+    {
         "name_of_fund": "Fort Worth Artist & Service Worker Relief Fund",
         "beneficiaries": "Creators and artists, Service industry workers",
         "purpose": "Financial assistance to musicians, visual artists, bartenders, servers, dancers, actors, event staff, sound technicians, local artisans.\r\n\r\nApplications for assistance may be suspended.",
@@ -412,6 +456,16 @@
         "donate_link": "https://secure.givelively.org/donate/spark-sf-public-schools/urgent-help-our-public-schools-prepare-and-respond-to-the-covid-19-pandemic"
     },
     {
+        "name_of_fund": "Student Support Fund",
+        "beneficiaries": "Education",
+        "purpose": "Provide support to Urban Alliance students working in paid internships and helping to financially support their families.",
+        "administrator": "Urban Alliance",
+        "city": "Washington",
+        "state": "DC",
+        "country": "USA",
+        "donate_link": "https://support.theurbanalliance.org/campaign/student-support-fund/c276729"
+    },
+    {
         "name_of_fund": "Equal Access to Online Learning",
         "beneficiaries": "Education",
         "purpose": "Purchase chromebooks and hotspots to provide equal remote learning access to students of Impact Public Schools in Puget Sound.",
@@ -490,6 +544,16 @@
         "donate_link": "https://nychhc.networkforgood.com/"
     },
     {
+        "name_of_fund": "Scrubs for COVID-19 First Responders in NYC",
+        "beneficiaries": "Health care workers",
+        "purpose": "Purchase full sets of scrubs for health care workers traveling to NYC to help with the outbreak there.",
+        "administrator": "Deidre Norton & Ellen Karsif",
+        "city": "New York City",
+        "state": "NY",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/scrubs-to-help-fight-covid19"
+    },
+    {
         "name_of_fund": "Meal Delivery for Puget Sound Hospital Staff",
         "beneficiaries": "Health care workers",
         "purpose": "Delivers \"high-quality, nutritious, multi-course meals\" to medical staff in King County hospitals.",
@@ -509,6 +573,16 @@
         "state": "WA",
         "country": "USA",
         "donate_link": "https://www.gofundme.com/f/masks-4-wa"
+    },
+    {
+        "name_of_fund": "Feed the Frontlines - Clark County",
+        "beneficiaries": "Health care workers",
+        "purpose": "Provide meals to health care workers and first responders in Clark County, WA",
+        "administrator": "Mike Terry",
+        "city": "Vancouver",
+        "state": "WA",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/5hcts-feed-the-front-lines"
     },
     {
         "name_of_fund": "Providence Helping Hands",
@@ -547,6 +621,16 @@
         "country": "USA",
         "donate_link": "http://peregrineespresso.com/sendcoffee",
         "assistance_link": "https://docs.google.com/forms/d/e/1FAIpQLSd50tLpPjA41YNrRcY8RhQlMvuHjG3Y5fFM2ASayrKqbgj8Gg/viewform"
+    },
+    {
+        "name_of_fund": "Wiseguy Pizza x Altani for Healthcare Workers",
+        "beneficiaries": "Healthcare workers; Local business employees",
+        "purpose": "Purchase pizza and gelato from two local business to be delivered to health care workers at hospitals in the Washington, DC area.",
+        "administrator": "Wiseguy Pizza",
+        "city": "Washington",
+        "state": "DC",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/wiseguy-pizza-x-altani-for-healthcare-workers"
     },
     {
         "name_of_fund": "Saint Louis Hospitality Staff Members",
@@ -629,6 +713,16 @@
         "assistance_link": "https://sfqueernightlifefund.org/sf-qnf-application/"
     },
     {
+        "name_of_fund": "Keep City Lights Books Alive",
+        "beneficiaries": "Local business employees",
+        "purpose": "Help to keep City Lights Books in business and supporting its staff.",
+        "administrator": "City Lights Books",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/aeany-keep-city-lights-books-alive"
+    },
+    {
         "name_of_fund": "Jammin Java & Union Stage Employee Relief Fund",
         "beneficiaries": "Local business employees",
         "purpose": "Financial assistance to hourly workers and staff at Jammin Java and Union Stage.",
@@ -694,6 +788,14 @@
         "purpose": "Buy gift cards to support local businesses experiencing financial stress due to pandemic mitigation measures.",
         "country": "USA",
         "donate_link": "https://helpmainstreet.com/"
+    },
+    {
+        "name_of_fund": "Save Indie Bookstores",
+        "beneficiaries": "Local business employees",
+        "purpose": "\"Infuse independent bookstores across the country with the financial support they need to remain viable while they are forced to shutter their doors during the coronavirus pandemic.\"",
+        "administrator": "BINC",
+        "country": "USA",
+        "donate_link": "https://www.saveindiebookstores.com/"
     },
     {
         "name_of_fund": "Wellness Relief Fund",
@@ -878,6 +980,15 @@
         "donate_link": "https://donate.google.com/checkout?campaignid=6420545008435200"
     },
     {
+        "name_of_fund": "Coronavirus Rent Relief Fund",
+        "beneficiaries": "None specified",
+        "purpose": "Rent assistance up to $200/recipient.",
+        "administrator": "Frederick Joseph",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/coronavirus-rent-relief-fund",
+        "assistance_link": "https://www.gofundme.com/f/coronavirus-rent-relief-fund"
+    },
+    {
         "name_of_fund": "San Diego COVID-19 Community Response Fund",
         "beneficiaries": "Nonprofit Organizations",
         "purpose": "\"Make emergency grants to nonprofit organizations that have deep roots and strong experience supporting impacted communities, particularly those that are disproportionately affected by this global pandemic and its economic consequences. Grant funding will focus on three critical areas: food security, rental and utility assistance, and income replacement or gap funding.\"",
@@ -918,6 +1029,16 @@
         "country": "USA",
         "donate_link": "https://www.cfmco.org/give-now/?fund=19651",
         "assistance_link": "https://www.cfmco.org/nonprofits/grants/covid-19-relief-grants/"
+    },
+    {
+        "name_of_fund": "Ward 4 Mutual Aid Fund",
+        "beneficiaries": "Nonprofit organizations",
+        "purpose": "Support the work of the Ward 4 Mutual Aid Fund to provide material support to people affected by COVID-19 or pandemic mitigation measures.",
+        "administrator": "Katie Hamm",
+        "city": "Washington",
+        "state": "DC",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/ward4covid"
     },
     {
         "name_of_fund": "COVID-19 Response & Recovery Fund for Idaho",
@@ -1133,6 +1254,26 @@
         "assistance_link": "https://unitedsikhs.org/united-sikhs-urges-those-in-need-to-use-hotline-during-covid-19-crisis/"
     },
     {
+        "name_of_fund": "Coronavirus Fundraiser for DMV Youth",
+        "beneficiaries": "Vulnerable communities",
+        "purpose": "Purchase gift cards for food, rent, & essentials for people working with the Sasha Bruce Network. Directly support Friendship Place & AimHire's employment services programs.",
+        "administrator": "Stand Up for Kids",
+        "city": "Washington",
+        "state": "DC",
+        "country": "USA",
+        "donate_link": "https://donatenow.networkforgood.org/SUFKDC"
+    },
+    {
+        "name_of_fund": "Donate Your Stimulus Check to Immigrant Families",
+        "beneficiaries": "Vulnerable communities",
+        "purpose": "Direct financial support to immigrant families. Donations can be from stimulus checks or other sources.",
+        "administrator": "Sanctuary DMV, Many Languages One Voice, LaColectiVA, Justice for Muslims Collective, and Restaurant Opportunities Center DC",
+        "city": "Washington",
+        "state": "DC",
+        "country": "USA",
+        "donate_link": "https://www.gofundme.com/f/ydm826-donate-your-stimulus-check-to-immigrant-families"
+    },
+    {
         "name_of_fund": "One Louisville COVID-19 Response Fund",
         "beneficiaries": "Vulnerable communities",
         "purpose": "Financial assistance for communities, households, and businesses to \"rental assistance, childcare assistance, transportation aid, food access, utility assistance, pharmaceutical needs and other support.\"",
@@ -1150,6 +1291,25 @@
         "state": "KY",
         "country": "USA",
         "donate_link": "https://www.bgcf.org/coronavirus"
+    },
+    {
+        "name_of_fund": "MASS UndocuFund for COVID-19 Relief in Massachusetts",
+        "beneficiaries": "Vulnerable communities",
+        "purpose": "Financial support for undocumented immigrants in Massachusetts who have been affected by COVID-19 or pandemic mitigation measures.",
+        "administrator": "MassUndocuFund",
+        "state": "MA",
+        "country": "USA",
+        "donate_link": "https://www.massundocufund.org/"
+    },
+    {
+        "name_of_fund": "Food and Resource Distribution Hub in Cherry Hill",
+        "beneficiaries": "Vulnerable communities",
+        "purpose": "Help provide \"a monthly supply of food to 200 elders and families in Cherry Hill,\" as well as \"goods to small businesses and nonprofits feeding people across Baltimore.\"",
+        "administrator": "Black Yield Institute",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "USA",
+        "donate_link": "http://amstcommunitystudies.org/"
     },
     {
         "name_of_fund": "COVID-19 Relief and Stabilization Fund",
@@ -1211,6 +1371,26 @@
         "state": "OR",
         "country": "USA",
         "donate_link": "https://www.gofundme.com/f/food-for-cottage-grove-homeless-kids-covid19"
+    },
+    {
+        "name_of_fund": "Guerreras Latinas COVID-19 Relief Fund",
+        "beneficiaries": "Vulnerable communities",
+        "purpose": "Support members of Guerreras Latinas with essential needs, such as \"food, diapers and baby formula, partial rent payments, husehold necessities like laundry soap, paper goods, personal hygiene, and utility payments.\"",
+        "administrator": "The Rosewood Initiative",
+        "city": "Portland",
+        "state": "OR",
+        "country": "USA",
+        "donate_link": "\r\nhttps://charity.gofundme.com/o/en/campaign/guerreras-latinas-covid-19-relief-fund1"
+    },
+    {
+        "name_of_fund": "Put People First! PA Community Care Fund",
+        "beneficiaries": "Vulnerable communities",
+        "purpose": "Support community organizers belonging to United Workers.",
+        "administrator": "United Workers",
+        "city": "Harrisburg",
+        "state": "PA",
+        "country": "USA",
+        "donate_link": "https://fundly.com/put-people-first-pa-community-care-fund"
     },
     {
         "name_of_fund": "One Sioux Falls Fund",
@@ -1283,6 +1463,15 @@
         "donate_link": "https://www.feedingamerica.org/take-action/coronavirus"
     },
     {
+        "name_of_fund": "Support Undocumented Families and Individuals During the Pandemic",
+        "beneficiaries": "Vulnerable communities",
+        "purpose": "Nobody left behind! Support our undocumented community members who are left out of the formal economy and the trillion-dollar stimulus plan.",
+        "administrator": "Techqueria",
+        "country": "USA",
+        "donate_link": "https://secure.givelively.org/donate/techqueria/support-undocumented-families-and-individuals-during-the-pandemic",
+        "assistance_link": "https://forms.gle/2cpM3hcmL7ZNcuSM8"
+    },
+    {
         "name_of_fund": "Undocu Workers Fund",
         "beneficiaries": "Vulnerable communities; Dining & beverage industry workers",
         "purpose": "Financial assistance to undocumented service industry workers who cannot apply for unemployment in Manhattan and Brooklyn.",
@@ -1309,6 +1498,16 @@
         "state": "CA",
         "country": "USA",
         "donate_link": "https://mayorsfundla.org/covid19/"
+    },
+    {
+        "name_of_fund": "Emergency Flex Funds",
+        "beneficiaries": "Vulnerable communities; Nonprofit organizations",
+        "purpose": "Support the work of Miriam's Kitchen to provide food and essential services to vulnerable communities affected by COVID-19.",
+        "administrator": "Miriam's Kitchen",
+        "city": "Washington",
+        "state": "DC",
+        "country": "USA",
+        "donate_link": "https://miriamskitchen.org/helpnow/"
     },
     {
         "name_of_fund": "Blue Grass Farms Charities: COVID19 Preparedness",
